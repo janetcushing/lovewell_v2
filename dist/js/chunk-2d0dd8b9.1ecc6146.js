@@ -1,2 +1,2 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0dd8b9"],{"829b":function(e,o,t){"use strict";t.r(o);var n=function(){var e=this,o=e.$createElement,t=e._self._c||o;return t("div",{staticClass:"about"},[t("Header"),t("h1",[e._v("About the Property Owners of Lovewell Pond Association")]),t("Footer")],1)},a=[],s=t("96c7"),r=t("9ef1"),c={name:"Association",components:{Header:s["a"],Footer:r["a"]}},i=c,l=t("2877"),u=Object(l["a"])(i,n,a,!1,null,null,null);o["default"]=u.exports}}]);
-//# sourceMappingURL=chunk-2d0dd8b9.adc2e527.js.map
+//# sourceMappingURL=chunk-2d0dd8b9.1ecc6146.js.map
