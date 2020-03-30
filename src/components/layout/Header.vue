@@ -42,7 +42,7 @@ export default {
   background-repeat: no-repeat;
   background-size: auto; */
 
-    background-image: url("../../assets/images/lovewellpondsummer.png");
+    background-image: url("../../assets/images/lovewellHeader.jpg");
     background-color: #555555;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,7 +58,7 @@ export default {
 }
 
 #title {
-    background: url("../../assets/images/lovewellpondsummer.png");
+    background: url("../../assets/images/lovewellHeader.jpg");
     background-size: cover;
     background-color: #555555;
     height: 32vh;
