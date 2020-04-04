@@ -5,7 +5,7 @@
     <b-container class="blurb-container">
       <b-row>
         <b-col class="margins" md="1"></b-col>
-        <b-col class="margins" md="10"></b-col>
+        <b-col md="10"></b-col>
           <b-row>
           <!-- <b-col md="12"> -->
             <h2 class="assoc">The Lovewell Pond Association</h2>
@@ -85,7 +85,7 @@ export default {
         {
           id: 3,
           title: "Upcoming Events",
-          sub_heading: "Loon Count, Saturday, July 18",
+          sub_heading: "Annual Loon Count, Saturday, July 18",
           detail:
             "Meet at the Public Boat Ramp at 7 AM, to count the loons on the lake.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks."
         },
