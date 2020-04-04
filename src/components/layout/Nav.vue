@@ -54,6 +54,12 @@ export default {
 </script>
 
 <style scoped>
+.navbar {
+background-color: #287492;
+}
+.nav-collapse {
+background-color: #287492;
+}
 #nav {
     /* background: #287492 0% 0% no-repeat padding-box; */
     background-color: #287492;
