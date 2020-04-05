@@ -9,7 +9,7 @@
         <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav style="background: #cce5ff;">
                 <b-nav-item to="/">Home</b-nav-item>
-                 <b-nav-item to="/about">About Lovewell Pond</b-nav-item>
+                 <b-nav-item to="/about">Lovewell Pond</b-nav-item>
                    <b-nav-item to="/association">The Association</b-nav-item>
                      <b-nav-item to="/resources">Resources</b-nav-item>
                        <b-nav-item to="/gallery">Photo Gallery</b-nav-item>
@@ -38,8 +38,8 @@
                     <!-- <b-dropdown-item href="#">Profile</b-dropdown-item>
                     <b-dropdown-item href="#">Sign Out</b-dropdown-item> -->
                 <!-- </b-nav-item-dropdown> -->
-                <a href= "https://www.wunderground.com/?cm_ven=cgi"><img src="http://weathersticker.wunderground.com/weathersticker/infobox_both/language/www/US/ME/Fryeburg.gif" 
-                alt="Click for Fryeburg, Maine Forecast" height="108" width="144" ></a>
+                <!-- <a href= "https://www.wunderground.com/?cm_ven=cgi" target = "_blank"><img src="http://weathersticker.wunderground.com/weathersticker/infobox_both/language/www/US/ME/Fryeburg.gif" 
+                alt="Click for Fryeburg, Maine Forecast" height="108" width="144" ></a> -->
             </b-navbar-nav>
         </b-collapse>
     </b-navbar>
