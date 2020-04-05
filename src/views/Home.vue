@@ -5,7 +5,7 @@
     <b-container class="blurb-container">
       <b-row>
         <b-col class="margins" md="1"></b-col>
-        <b-col md="10"></b-col>
+        <b-col md="10">
           <b-row>
           <!-- <b-col md="12"> -->
             <h2 class="assoc">The Lovewell Pond Association</h2>
@@ -42,7 +42,13 @@
             </div>
           <!-- </b-col> -->
         </b-row>
-        <b-col class="margins" md="1"></b-col>
+        </b-col>
+        <b-col md="1">
+            <p >
+                <a href= "https://www.wunderground.com/?cm_ven=cgi" target = "_blank"><img  style="border-style: solid;" src="http://weathersticker.wunderground.com/weathersticker/infobox_both/language/www/US/ME/Fryeburg.gif" 
+                alt="Click for Fryeburg, Maine Forecast" height="108" width="144" ></a>
+                </p>
+        </b-col>
       </b-row>
     </b-container>
     <hr />
@@ -124,7 +130,7 @@ export default {
 </script>
 <style scoped>
 .margins {
-  background: #265730 0% 0% no-repeat padding-box;
+  background: #F6F8F9 0% 0% no-repeat padding-box;
 }
 .blurb-container {
   text-align: left;
