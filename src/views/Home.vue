@@ -59,14 +59,12 @@
 <script>
 // @ is an alias to /src
 import Header from "@/components/layout/Header.vue";
-// import Blurb from "@/components/Blurb.vue";
 import Footer from "@/components/layout/Footer.vue";
 
 export default {
   name: "Home",
   components: {
     Header,
-    // Blurb,
     Footer
   },
   data() {
@@ -98,7 +96,7 @@ export default {
         {
           id: 4,
           title: "Upcoming Events",
-          sub_heading: "First Annual Boat Parade, Saturday, July 18th",
+          sub_heading: "First Annual Boat Parade, Saturday, July 18",
           detail:
             "Meet at Rapputak Harbor at 10 AM for our first annual Boat Parade!  Boats will line up and make 1 (or maybe 2!) laps around the pond.  Feel free to decorate your boat for the parade!"
         },
