@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Header />
-    <hr />
+    <br />
     <b-container class="blurb-container">
       <b-row>
         <b-col md="1"></b-col>

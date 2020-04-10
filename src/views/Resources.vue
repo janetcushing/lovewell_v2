@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Header />
-    <hr />
+    <br />
     <b-container class="blurb-container">
       <b-row>
         <b-col md="1"></b-col>
@@ -18,7 +18,7 @@
             </b-row>
             <b-row>
               <table v-for="tow in town" :key="tow.id">
-                <tr class="table-row"  v-html="tow.detail">{{tow.detail}}</tr>
+                <tr class="table-heading"  v-html="tow.detail">{{tow.detail}}</tr>
               </table>
         </b-row>
           <br/><br/>
@@ -28,8 +28,7 @@
             <b-row>
               <table >
                 <tr v-for="sta in state" :key="sta.id"> 
-                  <p class="table-heading">{{sta.sub_heading}}</p>
-                  <p class="table-row"  v-html="sta.detail">{{sta.detail}}</p>
+                  <td class="table-heading" v-html="sta.detail">{{sta.detail}}</td>
                  </tr>
               </table>
         </b-row>
@@ -40,8 +39,7 @@
             <b-row>
               <table>
                 <tr v-for="water in lake" :key="water.id">
-                  <p class="table-heading">{{water.sub_heading}}</p>
-                  <p class="table-row" v-html="water.detail">{{water.detail}}</p>
+                  <td class="table-heading" v-html="water.detail">{{water.detail}}</td>
                 </tr>
               </table>
         </b-row>
@@ -75,30 +73,31 @@ export default {
     return {
        town: [
         {
-          id: 2,
+          id: 1,
           title: "Town of Fryeburg",
-          detail: '<a href="www.fryeburgmaine.org/">www.fryeburgmaine.org/</a>'
+          detail: '<a href="www.fryeburgmaine.org/">Town of Fryeburg Website</a>'
         }
       ],
        state: [
+       
         {
-          id: 3,
+          id: 2,
           title: "State of Maine",
-          sub_heading: "Department of Inland Fisheries and Wildlife",
-          detail: '<a href="http://www.state.me.us/ifw">http://www.state.me.us/ifw</a>'   
+          sub_heading: "State of Maine",
+          detail: '<a href="https://www.maine.gov/portal/index.html">State of Maine Website</a>'   
         },
         {
           id: 4,
           title: "State of Maine",
           sub_heading: "Department of Environmental Protection",
           detail:
-           '<p><a href="http://www.maine.gov/dep">http://www.maine.gov/dep</a></p>'
+           '<a href="http://www.maine.gov/dep">Department of Environmental Protection</a>'
         },
              {
           id: 5,
           title: "State of Maine",
           sub_heading: "Department of Conservation",
-          detail: '<p><a href="http://www.maine.gov/doc">http://www.maine.gov/doc</a></p>'
+          detail: '<a href="http://www.maine.gov/doc">Department of Conservation</a>'
              }
       ],
       lake: [
@@ -106,31 +105,31 @@ export default {
           id: 7,
           title: "Lake Associations",
           sub_heading: "Maine Congress of Lake Associations",
-          detail: '<p><a href="http://www.mainecola.org">http://www.mainecola.org</a></p>'
+          detail: '<a href="http://www.mainecola.org">Maine Congress of Lake Associations</a>'
             },
              {
           id: 8,
           title: "Lake Associations",
           sub_heading: "Lakes Environmental Association",
-          detail: '<p><a href="http://www.mainelakes.org">http://www.mainelakes.org</a></p>'
+          detail: '<a href="http://www.mainelakes.org">Lakes Environmental Association</a>'
              },
             {
           id: 9,
           title: "Lake Associations",
           sub_heading: "Maine Volunteer Lake Monitoring Program",
-          detail: '<p><a href="http://www.mainevolunteerlakemonitors.org/">http://www.mainevolunteerlakemonitors.org/</a></p>'
+          detail: '<a href="http://www.mainevolunteerlakemonitors.org/">Maine Volunteer Lake Monitoring Program</a>'
              },
              {
           id: 10,
           title: "Lake Associations",
           sub_heading: "Maine Center for Invasive Aquatic Plants",
-          detail: '<p><a href="http://www.mainevolunteerlakemonitors.org/mciap">http://www.mainevolunteerlakemonitors.org/mciap</a></p>'
+          detail: '<a href="http://www.mainevolunteerlakemonitors.org/mciap">Maine Center for Invasive Aquatic Plants</a>'
              },
              {
           id: 11,
           title: "Lake Associations",
           sub_heading: "The Loon Preservation Committee",
-          detail: '<p><a href="http://www.loon.org">http://www.loon.org</a></p>'
+          detail: '<a href="http://www.loon.org">The Loon Preservation Committee</a>'
    }
       ]
     };
