@@ -70,31 +70,42 @@
           <b-row>
             <p>Source: Maine Audubon, <a href="www.maineaudubon.org" target="_blank">www.maineaudubon.com</a></p>
           </b-row>
+          <br/>
           <b-row>
             <p><b>Please remember:</b> Common loons are protected by both state and federal laws prohibiting harassment of wildlife.</p>
           </b-row>
           <b-row>
             <p>There is a lot of great information regarding loons available on the Web. Here are are a few:</p>
           </b-row>
-          <b-row>
+         
             <ul style="list-style-type: circle;">
+               <b-row>
               <li class="table-row">
                 <a href="www.loon.org" target = "_blank">Loon Preservation Committee, Moultonboro, NH</a>
               </li>
+              </b-row>
+          <b-row>
               <li class="table-row">
                 <a href="www.maineaudubon.org" target = "_blank">Maine Audubon</a>
               </li>
+              </b-row>
+          <b-row>
               <li class="table-row">
                 <a href="https://www.maineaudubon.org/projects/loons/annual-loon-count/" target = "_blank">The Annual Loon Count</a>
               </li>
+              </b-row>
+          <b-row>
               <li class="table-row">
                 <a href="https://www.thespruce.com/birding-and-wild-birds-4127712" target = "_blank">The Spruce - on birding</a>
               </li>
+              </b-row>
+          <b-row>
               <li class="table-row">
                 <a href="www.michiganloons.org" target = "_blank">Michigan Loon Preservation</a>
               </li>
+              </b-row>
             </ul>
-          </b-row>
+          
           <b-row>
             <p>For over 25 years, the Maine Audubon Society has been conducting an annual "Loon Count". Each year, on the third Saturday of July, from 7-7:30 AM, on every lake and pond in Maine, volunteers go out on their lakes and count the loons that they see, marking a special map with the place and time of sighting. Paul Troth was Lovewell Pond's original loon counter. His family (the Gobetz's) have continued the tradition with help from neighbors Stefi Hastings and Colleen Wilkins.  <a href="mailto:janet.cushing@gmail.com" target="_blank">Contact Us</a>, if you want to help with the loon count.</p>
           </b-row>
@@ -130,7 +141,7 @@
 import Header from "@/components/layout/Header.vue";
 import Footer from "@/components/layout/Footer.vue";
 export default {
-  name: "Home",
+  name: "About",
   components: {
     Header,
     Footer
@@ -157,34 +168,6 @@ export default {
   color: #265730;
   opacity: 1;
 }
-/* .assoc {
-  left: 170px;
-  height: 38px;
-  font: Bold 32px/20px Ubuntu;
-  font-family: "Ubuntu", "Source Sans Pro", sans-serif;
-  letter-spacing: 0;
-  color: #265730;
-  opacity: 1;
-} */
-/* .events {
-  left: 170px;
-  height: 38px;
-  font: Bold 32px/20px Ubuntu;
-  font-family: "Ubuntu", "Source Sans Pro", sans-serif;
-  letter-spacing: 0;
-  color: #265730;
-  opacity: 1;
-}
-.news {
-  left: 170px;
-  height: 38px;
-  font: Bold 32px/20px Ubuntu;
-  font-family: "Ubuntu", "Source Sans Pro", sans-serif;
-  letter-spacing: 0;
-  color: #265730;
-  opacity: 1;
-} */
-
 .table-heading {
   left: 170px;
   /* width: 770px; */
