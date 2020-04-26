@@ -111,7 +111,7 @@ export default {
           id: 8,
           title: "Lake Associations",
           sub_heading: "Lakes Environmental Association",
-          detail: '<a href="http://www.mainelakes.org">Lakes Environmental Association</a>'
+          detail: '<a href="http://www.mainelakes.org">Maine Lakes Environmental Association</a>'
              },
             {
           id: 9,
