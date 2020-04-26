@@ -138,7 +138,7 @@ export default {
   top: 30px;
   left: 0px;
   height: 24px;
-  font: Bold 20px/20px "Open Sans";
+  font: Regular 20px/20px "Open Sans";
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0;
   color: #343638;
