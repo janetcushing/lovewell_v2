@@ -11,11 +11,10 @@
             </b-row>
             <b-row>
               <table >
-                  <col width="200">
                   <col width="250">
                 <tr v-for="person in officers" :key="person.id">
-                <td class="table-heading">{{person.name}}</td>
-                <td class="table-row">{{person.title}}</td>
+                <td class="table-heading">{{person.title}}:</td>
+                <td class="table-row">{{person.name}}</td>
                 <!-- <td class="table-row" v-html="person.email"></td> -->
                 </tr>
               </table>
@@ -69,13 +68,13 @@ export default {
           {
           id: 1,
           title: "Treasurer",
-          name: "Frodo Baggins",
+          name: " ",
           email: "dummy.data@gmail.com"
          },
           {
           id: 1,
           title: "Director",
-          name: "Bilbo Baggins",
+          name: " ",
           email: "dummy.data@gmail.com"
          },
           {
