@@ -9,7 +9,6 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components pl
 // Vue.use(IconsPlugin)
-
 Vue.config.productionTip = false
 
 new Vue({
