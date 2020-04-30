@@ -1,30 +1,42 @@
 <template>
   <div class="home">
     <Header />
-    <br/><br/>
+    <br />
+    <br />
     <b-container class="blurb-container">
       <b-row>
         <b-col md="1"></b-col>
         <b-col md="10">
-        <b-row>
+          <b-row>
             <h2 class="events">Association Officers</h2>
-            </b-row>
-            <b-row>
-              <table >
-                  <col width="250">
-                <tr v-for="person in officers" :key="person.id">
-                <td class="table-heading">{{person.title}}:</td>
+          </b-row>
+          <b-row>
+            <table>
+              <col width="250" />
+              <tr v-for="person in officers" :key="person.id">
+                <td class="table-heading">{{person.title}}</td>
                 <td class="table-row">{{person.name}}</td>
                 <!-- <td class="table-row" v-html="person.email"></td> -->
-                </tr>
-              </table>
-        </b-row>
+              </tr>
+            </table>
+          </b-row>
+          <br/>
+          <b-row>
+            <h5 class="splash">We currently have 2 open Director's positions.  Please <a href="mailto:janet.cushing@gmail.com" target="_blank">contact us</a> if you would like to volunteer!</h5>
+          </b-row>
         </b-col>
         <b-col md="1">
-            <p >
-                <a href= "https://www.wunderground.com/?cm_ven=cgi" target = "_blank"><img  style="border-style: solid;" src="http://weathersticker.wunderground.com/weathersticker/infobox_both/language/www/US/ME/Fryeburg.gif" 
-                alt="Click for Fryeburg, Maine Forecast" height="108" width="144" ></a>
-                </p>
+          <p>
+            <a href="https://www.wunderground.com/?cm_ven=cgi" target="_blank">
+              <img
+                style="border-style: solid;"
+                src="http://weathersticker.wunderground.com/weathersticker/infobox_both/language/www/US/ME/Fryeburg.gif"
+                alt="Click for Fryeburg, Maine Forecast"
+                height="108"
+                width="144"
+              />
+            </a>
+          </p>
         </b-col>
       </b-row>
     </b-container>
@@ -49,32 +61,50 @@ export default {
       officers: [
         {
           id: 1,
-          title: "President",
+          title: "President:",
           name: "Gene Bergoffen",
           email: "dummy.data@gmail.com"
          },
           {
-          id: 1,
-          title: "Vice President",
+          id: 2,
+          title: "Vice President:",
           name: "Peter Wilkins",
           email: "dummy.data@gmail.com"
          },
           {
-          id: 1,
-          title: "Secretary",
+          id: 3,
+          title: "Secretary:",
           name: "Colleen Wilkins",
           email: "dummy.data@gmail.com"
          },
           {
-          id: 1,
-          title: "Treasurer",
-          name: " ",
+          id: 4,
+          title: "Treasurer:",
+          name: "Paul Fortin",
           email: "dummy.data@gmail.com"
          },
           {
-          id: 1,
-          title: "Director",
-          name: " ",
+          id: 5,
+          title: "Directors:",
+          name: "Peter Bourneuf",
+          email: "dummy.data@gmail.com"
+         },
+         {
+          id: 6,
+          title: "",
+          name: "Debbie Fortin",
+          email: "dummy.data@gmail.com"
+         },
+         {
+          id: 7,
+          title: "",
+          name: "Mike Cherry",
+          email: "dummy.data@gmail.com"
+         },
+         {
+          id: 8,
+          title: "",
+          name: "Frank Goebtz",
           email: "dummy.data@gmail.com"
          },
           {
@@ -90,7 +120,7 @@ export default {
 </script>
 <style scoped>
 .margins {
-  background: #F6F8F9 0% 0% no-repeat padding-box;
+  background: #f6f8f9 0% 0% no-repeat padding-box;
 }
 .blurb-container {
   text-align: left;
@@ -141,6 +171,14 @@ export default {
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0;
   color: #343638;
+}
+
+.splash {
+   font: Regular 20px/20px "Open Sans";
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #cc1717;
+
 }
 </style>
 
