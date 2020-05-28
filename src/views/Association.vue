@@ -12,7 +12,7 @@
           </b-row>
           <b-row>
             <table>
-              <col width="250" />
+              <col width="200" />
               <tr v-for="person in officers" :key="person.id">
                 <td class="table-heading">{{person.title}}</td>
                 <td class="table-row">{{person.name}}</td>
@@ -23,6 +23,16 @@
           <br/>
           <b-row>
             <h5 class="splash">We currently have 2 open Director's positions.  Please <a href="mailto:janet.cushing@gmail.com" target="_blank">contact us</a> if you would like to volunteer!</h5>
+          </b-row>
+          <br/>
+          <b-row>
+            <h6><strong>Nominations and Election of Officers – </strong></h6><p>As we have done for the past 14 years, the attendees voted to extend the same Board members.  Please consider serving as a board member.  Just send Gene an e-mail at <a href="mailto:bergoffen@roadrunner.com" target="_blank">bergoffen@roadrunner.com</a> and we’ll get you up to speed.  It’s been 15 years for so many of us and time to transition with some new folks, new plans and new ideas to the LPA.</p>
+          </b-row>
+           <b-row>
+              <h6><strong>Meeting Minutes:</strong></h6>
+                <ul v-for="doc in minutes" :key="doc.year">
+                   <li><a :href="doc.path" target="_blank">{{doc.year}}</a></li>
+                </ul>
           </b-row>
         </b-col>
         <b-col md="1">
@@ -108,10 +118,16 @@ export default {
           email: "dummy.data@gmail.com"
          },
           {
-          id: 1,
+          id: 9,
           title: "Webmaster of this site",
           name: "Janet Cushing",
           email: "janet.cushing@gmail.com"
+         }
+      ],
+      minutes: [
+        {
+          year: 2019,
+          path: "2019LovewellPondAnnualMeetingMinutes.pdf",
          }
       ]
     };
@@ -137,7 +153,7 @@ export default {
 .events {
   left: 170px;
   height: 38px;
-  font: Bold 32px/20px Ubuntu;
+  font: Bold 22px/14px Ubuntu;
   font-family: "Ubuntu", "Source Sans Pro", sans-serif;
   letter-spacing: 0;
   color: #265730;
@@ -156,7 +172,7 @@ export default {
 .table-heading {
   left: 170px;
   height: 38px;
-  font: Bold 20px/20px "Open Sans";
+  font: Bold 14px/14px "Open Sans";
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0;
   color: #287492;
@@ -167,14 +183,14 @@ export default {
   top: 30px;
   left: 0px;
   height: 24px;
-  font: Regular 20px/20px "Open Sans";
+  font: Regular 12px/12px "Open Sans";
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0;
   color: #343638;
 }
 
 .splash {
-   font: Regular 20px/20px "Open Sans";
+   font: Regular 14px/14px "Open Sans";
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   color: #cc1717;

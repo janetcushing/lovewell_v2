@@ -84,14 +84,14 @@ export default {
           title: "Upcoming Events",
           sub_heading: "2020 Annual Meeting, Saturday, July 10",
           detail:
-            'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its Annual meeting on Saturday, July 10th, from 10:00 AM until noon, at the Rapputak Community Lodge.  Please bring your good ideas and Lake info to share - we look forward to seeing everyone!'
+            'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its Annual meeting on Saturday, July 10th, from 10:00 AM until noon, at the Rapputak Community Lodge.  Please bring your good ideas and Lake info to share - we look forward to seeing everyone!   Nominations and Election of Officers – For for the past 14 years, the attendees voted to extend the same Board members.  Please consider serving as a board member.  It’s time to transition to some new folks, with new plans and new ideas!'
         },
         {
           id: 3,
           title: "Upcoming Events",
           sub_heading: "Annual Loon Count, Saturday, July 18",
           detail:
-            "Meet at the Public Boat Ramp at 7 AM, to count the loons on the lake.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks."
+            "Meet at the Public Boat Ramp at 7 AM, to count the loons on the lake.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks.  We'd love to get kids involved!"
         },
         {
           id: 4,
