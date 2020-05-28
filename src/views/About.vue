@@ -15,12 +15,26 @@
           <br/>
           <b-row>
             <ul style="list-style-type: circle;">
+              <b-row>
               <li class="table-row">is approximately 1,120 acres in size</li>
+              </b-row>
+              <b-row>
               <li class="table-row">has an elevation of 357 feet above sea level</li>
+              </b-row>
+              <b-row>
               <li class="table-row">has a drainage area calculated at 3,101 acres</li>
+              </b-row>
+              <b-row>
               <li class="table-row">has a maximum depth of 45 feet</li>
-              <li class="table-row">supports a population of brown trout as well as other warmer water species such as smallmouth bass, white perch, yellow perch, pickerel, eels, white sucker, long nose sucker, and hornpout</li>
+              </b-row>
+               <b-row>
               <li class="table-row">has about 75-80 buildings along the shoreline, with approximately 35 others with access rights to the shoreline</li>
+              </b-row>
+              <b-row>
+              <li class="table-row">supports a population of brown trout as well as other warmer water species such as smallmouth bass, white perch, 
+                yellow perch, pickerel, eels, white sucker, long nose sucker, and hornpout</li>
+              </b-row>
+             
             </ul>
           </b-row>
             <br />
@@ -58,13 +72,25 @@
             <p>There are several things we all can do to encourage the loons to stay on our pond and to return each year:</p>
           </b-row>
           <b-row>
-            <ul>
+            <ul >
+              <b-row>
               <li class="table-row">Use only phosphate free detergents and fertilizer</li>
+              </b-row>
+              <b-row>
               <li class="table-row"> Enjoy loons from a distance</li>
+              </b-row>
+              <b-row>
               <li class="table-row">While boating, watch for loons and keep your distance</li>
+              </b-row>
+              <b-row>
               <li class="table-row"> Slow down if you suspect you are close to diving loons</li>
+              </b-row>
+              <b-row>
               <li class="table-row">Use only lead free fishing sinkers and jigs, and properly dispose of old lead tackle</li>
+              </b-row>
+              <b-row>
               <li class="table-row"> Retrieve broken fishing lines</li>
+              </b-row>
             </ul>
           </b-row>
           <b-row>
