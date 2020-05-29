@@ -150,11 +150,7 @@
 <p>A Colonial-era ballad memorializing the fight is at <a href="http://www.hawthorneinsalem.org/Literature/NativeAmericans&Blacks/HannahDuston/MMD2141.html" target = "_blank">The Hawthorne in Salem site.</a></p>
 </b-row>
 </b-col>
-        <b-col class="weather" md="1">
-          <p >
-                <a href= "https://www.wunderground.com/?cm_ven=cgi" target = "_blank"><img  style="border-style: solid;" src="http://weathersticker.wunderground.com/weathersticker/infobox_both/language/www/US/ME/Fryeburg.gif" 
-                alt="Click for Fryeburg, Maine Forecast" height="108" width="144" ></a>
-                </p>
+         <b-col md="1">
         </b-col>
         </b-row>
     </b-container>

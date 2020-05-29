@@ -46,10 +46,6 @@
         </b-row>
         </b-col>
         <b-col md="1">
-            <p >
-                <a href= "https://www.wunderground.com/?cm_ven=cgi" target = "_blank"><img  style="border-style: solid;" src="http://weathersticker.wunderground.com/weathersticker/infobox_both/language/www/US/ME/Fryeburg.gif" 
-                alt="Click for Fryeburg, Maine Forecast" height="108" width="144" ></a>
-                </p>
         </b-col>
       </b-row>
     </b-container>
