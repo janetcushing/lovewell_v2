@@ -33,11 +33,10 @@
               <b-row>
               <li class="table-row">supports a population of brown trout as well as other warmer water species such as smallmouth bass, white perch, 
                 yellow perch, pickerel, eels, white sucker, long nose sucker, and hornpout</li>
-              </b-row>
-             
+              </b-row>  
             </ul>
           </b-row>
-            <br />
+            <br /><br />
           <b-row>
               <p>Fight Brook, Mill/Wards Brook, and several smaller unnamed streams flow into the Pond. There is an outlet to the Saco River in the southeastern section of the Pond. There is also a large flood plain in this area along with associated wetlands. Because of these features, Lovewell Pond is subject to flooding when the Saco River Floods. During these floods, the outlet of Lovewell Pond reverses direction and actually flows into the pond.</p>
           </b-row>
@@ -173,14 +172,6 @@ export default {
 <style scoped>
 .blurb-container {
   text-align: left;
-  /* left: 170px; */
-  /* width: 770px; */
-  /* height: 38px;
-  font: Bold 32px/20px Ubuntu;
-  font-family: "Ubuntu", "Source Sans Pro", sans-serif;
-  letter-spacing: 0;
-  color: #265730;
-  opacity: 1; */
 }
 .heading {
   height: 38px;
@@ -211,6 +202,7 @@ export default {
   letter-spacing: 0;
   color: #343638;
   display: inline-block;
+  word-wrap: break-word;
 }
 li::before {
   content: "•"; color: black;
@@ -219,6 +211,30 @@ li::before {
   }
 .weather {  
   text-align: right;
+}
+/* MEDIA TAGS */
+@media screen and (max-width: 980px) {
+#title {
+    font: Bold 40px/49px Ubuntu;
+}
+}
+
+@media screen and (max-width: 768px) {
+#title {
+    font: Bold 35px/44 Ubuntu;
+}
+}
+
+@media screen and (max-width: 640px) {
+  
+ .table-row {
+  top: 10px;
+  left: 5px;
+  height: 24px;
+  font: Regular 12px/14px "Open Sans";
+}
+
+ 
 }
 
 </style>
