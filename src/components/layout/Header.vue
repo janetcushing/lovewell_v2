@@ -47,7 +47,6 @@ export default {
     opacity: 1;
 }
 /* MEDIA TAGS */
-
 @media screen and (max-width: 980px) {
 #title {
     font: Bold 40px/49px Ubuntu;

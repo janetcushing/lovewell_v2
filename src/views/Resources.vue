@@ -13,6 +13,7 @@
                 <p class="table-row">A number of agencies and organizations have programs and activities which affect the work of the Lovewell Pond Association, and which influence the uses and environment of the Pond.</p> 
         </b-row> 
         <br/><br/>
+        <br/>
              <b-row>
             <h2 class="events">Town of Fryeburg</h2>
             </b-row>
