@@ -1,7 +1,10 @@
 <template>
   <div class="footer">
     <b-row>
-      <b-col md="2"></b-col>
+      <b-col md="1"></b-col>
+       <b-col md="1">
+          <b-button variant="outline-warning" style="color: white; padding 5px 5px 5px 5px;" href= "TheLovewellPondAssociationPrivacyPolicy.pdf" target = "_blank">Privacy Policy</b-button>
+       </b-col>
       <b-col md="8">
         <p>&copy;Lovewell Pond Association - All rights reserved.</p>
         <p>Property Owners of Lovewell Pond Association</p>
