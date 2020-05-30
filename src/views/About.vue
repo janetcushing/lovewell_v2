@@ -14,7 +14,7 @@
           </b-row>
           <br/>
           <b-row>
-            <ul style="list-style-type: circle;">
+            <ul>
               <b-row>
               <li class="table-row">is approximately 1,120 acres in size</li>
               </b-row>
@@ -47,7 +47,7 @@
             <p>At the north end of the Pond is an Outwash Plain Pondshore, which is a natural plant community that is critically imperiled in the State Of Maine. Within this plant community are two rare plant species.</p>
           </b-row>
           <b-row>
-            <p><a href="https://www11.maine.gov/ifw/docs/lake-survey-maps/oxford/lovewell_pond.pdf" target="_blank"> Maine Department of Inland Fisheries and Wildlife Depth Chart of Lovewell Pond</a> (PDF, 510 Kb)
+            <p><a href="https://www11.maine.gov/ifw/docs/lake-survey-maps/oxford/lovewell_pond.pdf" target="_blank"> Maine Department of Inland Fisheries and Wildlife Depth Chart of Lovewell Pond</a>
            </p>
           </b-row>
           <b-row>
@@ -145,9 +145,9 @@
 <p><a href="https://en.wikipedia.org/wiki/Battle_of_Pequawket" target="_blank">The battle at Pigwacket, commonly called "Lovewell's Fight"</a> after Capt. John Lovewell of Dunstable who commanded the company of 46 colonists, took place on 8 May 1725 on the shores of what is now Lovewell's Pond in Fryeburg, Maine. Lovewell's company went to suppress the Indians in the region and hoped to collect bounties on Indian scalps, but instead was ambushed and Lovewell himself and eight of his soldiers were killed. Lovewell's Fight was famous throughout the eighteenth and nineteenth centuries, and much was written about it. Green's <i>Indian Wars</i> gives a comprehensive history of the Fight; Longfellow and others commemorated the Fight in verse.</p>
 </b-row>
 <p><a href="http://www.mainestory.info/maine-stories/lovewells-fight.html" target="_blank">Maine Story,</a> <a href="http://www.ahgp.org/maine/lovewells-fight.html" target="_blank">American History and Geneology Project,</a> <a href="https://american-history.net/colonial-period-2/colonial-wars/dummers-war/battle-of-pequawket/" target="_blank">American-History.net</a> all give accounts of Lovewell's FIght.</p>
-<b-row>
+<!-- <b-row>
 <p>A Colonial-era ballad memorializing the fight is at <a href="http://www.hawthorneinsalem.org/Literature/NativeAmericans&Blacks/HannahDuston/MMD2141.html" target = "_blank">The Hawthorne in Salem site.</a></p>
-</b-row>
+</b-row> -->
 </b-col>
          <b-col md="1">
         </b-col>
@@ -192,10 +192,16 @@ export default {
   opacity: 1;
 }
 
+li::before {
+  content: "•"; 
+  color: black;
+  display: inline-block;
+   width: 2em;
+  }
+
 .table-row {
   top: 30px;
   left: 0px;
-  /* width: 324px; */
   height: 24px;
   font: Regular 18px/30px "Open Sans";
   font-family: "Open Sans", sans-serif;
@@ -203,12 +209,10 @@ export default {
   color: #343638;
   display: inline-block;
   word-wrap: break-word;
+    overflow:auto;
 }
-li::before {
-  content: "•"; color: black;
-  display: inline-block; width: 2em;
-  margin-left: -2em
-  }
+
+
 .weather {  
   text-align: right;
 }
