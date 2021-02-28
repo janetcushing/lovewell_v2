@@ -13,6 +13,7 @@
                 <p class="table-row">A number of agencies and organizations have programs and activities which affect the work of the Lovewell Pond Association, and which influence the uses and environment of the Pond.</p> 
         </b-row> 
         <br/><br/>
+        <br/>
              <b-row>
             <h2 class="events">Town of Fryeburg</h2>
             </b-row>
@@ -45,12 +46,6 @@
         </b-row>
          <br/><br/>
         </b-col>
-        <b-col md="1">
-            <p >
-                <a href= "https://www.wunderground.com/?cm_ven=cgi" target = "_blank"><img  style="border-style: solid;" src="http://weathersticker.wunderground.com/weathersticker/infobox_both/language/www/US/ME/Fryeburg.gif" 
-                alt="Click for Fryeburg, Maine Forecast" height="108" width="144" ></a>
-                </p>
-        </b-col>
       </b-row>
     </b-container>
     <hr />
@@ -75,29 +70,28 @@ export default {
         {
           id: 1,
           title: "Town of Fryeburg",
-          detail: '<a href="www.fryeburgmaine.org/">Town of Fryeburg Website</a>'
+          detail: '<a href="www.fryeburgmaine.org/" target="_blank">Town of Fryeburg Website</a>'
         }
       ],
        state: [
-       
         {
           id: 2,
           title: "State of Maine",
           sub_heading: "State of Maine",
-          detail: '<a href="https://www.maine.gov/portal/index.html">State of Maine Website</a>'   
+          detail: '<a href="https://www.maine.gov/portal/index.html" target="_blank">State of Maine Website</a>'   
         },
         {
           id: 4,
           title: "State of Maine",
-          sub_heading: "Department of Environmental Protection",
+          sub_heading: "Maine Department of Environmental Protection",
           detail:
-           '<a href="http://www.maine.gov/dep">Department of Environmental Protection</a>'
+           '<a href="http://www.maine.gov/dep" target="_blank">Department of Environmental Protection</a>'
         },
              {
           id: 5,
           title: "State of Maine",
-          sub_heading: "Department of Conservation",
-          detail: '<a href="http://www.maine.gov/doc">Department of Conservation</a>'
+          sub_heading: "Maine Department of Conservation",
+          detail: '<a href="http://www.maine.gov/doc" target="_blank">Department of Conservation</a>'
              }
       ],
       lake: [
@@ -105,31 +99,31 @@ export default {
           id: 7,
           title: "Lake Associations",
           sub_heading: "Maine Congress of Lake Associations",
-          detail: '<a href="http://www.mainecola.org">Maine Congress of Lake Associations</a>'
+          detail: '<a href="http://www.mainecola.org" target="_blank">Maine Congress of Lake Associations</a>'
             },
              {
           id: 8,
           title: "Lake Associations",
           sub_heading: "Lakes Environmental Association",
-          detail: '<a href="http://www.mainelakes.org">Maine Lakes Environmental Association</a>'
+          detail: '<a href="http://www.mainelakes.org" target="_blank">Maine Lakes Environmental Association</a>'
              },
             {
           id: 9,
           title: "Lake Associations",
           sub_heading: "Maine Volunteer Lake Monitoring Program",
-          detail: '<a href="http://www.mainevolunteerlakemonitors.org/">Maine Volunteer Lake Monitoring Program</a>'
+          detail: '<a href="http://www.mainevolunteerlakemonitors.org/" target="_blank">Maine Volunteer Lake Monitoring Program</a>'
              },
              {
           id: 10,
           title: "Lake Associations",
           sub_heading: "Maine Center for Invasive Aquatic Plants",
-          detail: '<a href="http://www.mainevolunteerlakemonitors.org/mciap">Maine Center for Invasive Aquatic Plants</a>'
+          detail: '<a href="http://www.mainevolunteerlakemonitors.org/mciap" target="_blank">Maine Center for Invasive Aquatic Plants</a>'
              },
              {
           id: 11,
           title: "Lake Associations",
           sub_heading: "The Loon Preservation Committee",
-          detail: '<a href="http://www.loon.org">The Loon Preservation Committee</a>'
+          detail: '<a href="http://www.loon.org" target="_blank">The Loon Preservation Committee</a>'
    }
       ]
     };
@@ -147,7 +141,7 @@ export default {
 .assoc {
   left: 170px;
   height: 38px;
-  font: Bold 32px/20px Ubuntu;
+  font: Bold 22px/14px Ubuntu;
   font-family: "Ubuntu", "Source Sans Pro", sans-serif;
   letter-spacing: 0;
   color: #265730;
@@ -156,7 +150,7 @@ export default {
 .events {
   left: 170px;
   height: 38px;
-  font: Bold 32px/20px Ubuntu;
+  font: Bold 22px/14px Ubuntu;
   font-family: "Ubuntu", "Source Sans Pro", sans-serif;
   letter-spacing: 0;
   color: #265730;
@@ -165,7 +159,7 @@ export default {
 .news {
   left: 170px;
   height: 38px;
-  font: Bold 32px/20px Ubuntu;
+  font: Bold 22px/14px Ubuntu;
   font-family: "Ubuntu", "Source Sans Pro", sans-serif;
   letter-spacing: 0;
   color: #265730;

@@ -28,8 +28,9 @@
               </table>
             </div>
           <!-- </b-col> -->
+          <b-button variant="success" style="color: white;" href= "https://www.surveymonkey.com/r/WK6KSPW" target = "_blank">Lake Survey</b-button> 
         </b-row>
-        <br />
+        <br /> <br /> 
         <b-row>
           <!-- <b-col md="12"> -->
             <h2 class="news">News &amp; Announcements</h2>
@@ -41,13 +42,10 @@
               </table>
             </div>
           <!-- </b-col> -->
+             <b-button variant="success" style="color: white;" href= "https://www.surveymonkey.com/r/WK6KSPW" target = "_blank">Lake Survey</b-button>
         </b-row>
         </b-col>
         <b-col md="1">
-            <p >
-                <a href= "https://www.wunderground.com/?cm_ven=cgi" target = "_blank"><img  style="border-style: solid;" src="http://weathersticker.wunderground.com/weathersticker/infobox_both/language/www/US/ME/Fryeburg.gif" 
-                alt="Click for Fryeburg, Maine Forecast" height="108" width="144" ></a>
-                </p>
         </b-col>
       </b-row>
     </b-container>
@@ -91,7 +89,7 @@ export default {
           title: "Upcoming Events",
           sub_heading: "Annual Loon Count, held on a Saturday in July (date not set yet)",
           detail:
-            "Meet at the Public Boat Ramp at 7 AM, to count the loons on the lake.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks."
+            "Meet at the Public Boat Ramp at 7 AM, to count the loons on the lake.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks.  We'd love to get kids involved!"
         },
         {
           id: 4,
@@ -104,7 +102,7 @@ export default {
           id: 5,
           title: "Upcoming Events",
           sub_heading: "Plant Identification Paddle - To be Scheduled",
-          detail: "This paddle, starting at the boat ramp, will be scheduled for some time this summer, with Laurie Callahan, a biologist.  Please <a href='mailto:lovewellpondassoc@gmail.com' target='_blank'>Email Us</a> if you are interested in participating and we will keep you in the loop when it gets scheduled."
+          detail: "This paddle, starting at the boat ramp, will be scheduled for some time this summer, with Laurie Callahan, a biologist.  Please <a href='mailto:lovewellpondassoc@gmail.com' target='_blank'>Email Us</a> if you are interested in participating and we will keep you in the loop when it gets scheduled.Please fill out our 5 question survey to help with plant identification.   "
              }
       ],
       News: [
@@ -120,7 +118,7 @@ export default {
           title: "News and Announcements",
           sub_heading: "Invasive Plant and Inspection Program",
           detail:
-            "Peter Wilkens noted that due to the more than double inspections performed at the boat ramp in 2018, the state approved Lovewell Pond for the full $2000 Courtesy Boat Inspection grant for 2019.  Peter submitted the grant application back in March and noted that Lovewell Pond inspected more than 1500 boats in 2018.  This includes required trailers, canoes and kayaks.  On one very busy day in 2018, Allison, our only inspector at the boat ramp, inspected 90 boats.  That is quite a feat.  This year’s inspections started a little slower due to the weather and the flooding situation however it is definitely picking up.  Only July 4th of this year, 67 boats were inspected.  It seems that the Lovewell Pond boat ramp gets busier every year, particularly with the Saco River access, the media press, and the livery brochures.   Lovewell Pond is definitely on the map.  This increases the risk of invasive plant hitchhikers such as variable leaf milfoil, etc. on boats that are launched in the pond after possibly coming from another infested body of water. It also makes boat, kayaks and canoes and trailer inspections critical.  The key emphasis this year is “Clean, Drain and Dry”.  Boaters are urged to clean off any mud, plants and animals from boats, jet-ski’s, trailers and other equipment.  The boat live well, engine and equipment should be drained well away from surface waters and anything that comes in contact with water should be dried between use at different lakes.  Please also remind your renters of this and that they also need a Milfoil sticker on their boat.  These can now be purchased on line.  With all of the activity at the boat ramp, we could use some help, if not this year maybe next year.  Please let us know if you can lend a hand, it will be so appreciated.  Allison continues to do an amazing job and keeps things calm in a chaotic atmosphere, not to mention keeping her keen eye out for those nasty invasives.   She’s a real pro and we are fortunate to have her as an inspector."
+            "Peter Wilkens noted that due to the more than double inspections performed at the boat ramp in 2018, the state approved Lovewell Pond for the full $2000 Courtesy Boat Inspection grant for 2019.  Peter submitted the grant application in March 2019 and noted that Lovewell Pond inspected more than 1500 boats in 2018.  This includes required trailers, canoes and kayaks.  On one very busy day in 2018, Allison, our only inspector at the boat ramp, inspected 90 boats.  That is quite a feat.  This year’s inspections started a little slower due to the weather and the flooding situation however it is definitely picking up.  Only July 4th of this year, 67 boats were inspected.  It seems that the Lovewell Pond boat ramp gets busier every year, particularly with the Saco River access, the media press, and the livery brochures.   Lovewell Pond is definitely on the map.  This increases the risk of invasive plant hitchhikers such as variable leaf milfoil, etc. on boats that are launched in the pond after possibly coming from another infested body of water. It also makes boat, kayaks and canoes and trailer inspections critical.  The key emphasis this year is “Clean, Drain and Dry”.  Boaters are urged to clean off any mud, plants and animals from boats, jet-ski’s, trailers and other equipment.  The boat live well, engine and equipment should be drained well away from surface waters and anything that comes in contact with water should be dried between use at different lakes.  Please also remind your renters of this and that they also need a Milfoil sticker on their boat.  These can now be purchased on line.  With all of the activity at the boat ramp, we could use some help, if not this year maybe next year.  Please let us know if you can lend a hand, it will be so appreciated.  Allison continues to do an amazing job and keeps things calm in a chaotic atmosphere, not to mention keeping her keen eye out for those nasty invasives.   She’s a real pro and we are fortunate to have her as an inspector."
             },
              {
           id: 9,
@@ -188,6 +186,12 @@ export default {
   /* width: 324px; */
   height: 24px;
   font: Regular 18px/30px "Open Sans";
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+  color: #343638;
+}
+.survey {
+  font: Bold 18px/30px "Open Sans";
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0;
   color: #343638;
