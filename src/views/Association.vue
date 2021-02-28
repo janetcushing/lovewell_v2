@@ -22,7 +22,7 @@
           </b-row>
           <br/>
           <b-row>
-            <h5 class="splash">We currently have 2 open Director's positions.  Please <a href="mailto:janet.cushing@gmail.com" target="_blank">contact us</a> if you would like to volunteer!</h5>
+            <h5 class="splash">We currently have 2 open Director's positions and we would love for you to volunteer! <a href="mailto:janet.cushing@gmail.com" target="_blank">Contact us!</a></h5>
           </b-row>
         </b-col>
         <b-col md="1">

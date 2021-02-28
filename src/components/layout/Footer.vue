@@ -3,7 +3,7 @@
     <p>&copy;Lovewell Pond Association - All rights reserved.</p>
     <p>Property Owners of Lovewell Pond Association</p>
     <p>P.O. Box 617, Fryeburg, ME  04037</p>
-    <p><a href="mailto:janet.cushing@gmail.com" target="_blank">Contact Us</a></p>
+    <p><a href="mailto:lovewellpondassoc@gmail.com" target="_blank">Contact Us</a></p>
   </div>
 </template>
 
