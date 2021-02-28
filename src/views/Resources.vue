@@ -97,30 +97,30 @@ export default {
              }
       ],
       lake: [
-        {
-          id: 7,
-          title: "Lake Associations",
-          sub_heading: "Maine Congress of Lake Associations",
-          detail: '<a href="http://www.mainecola.org" target="_blank">Maine Congress of Lake Associations</a>'
-            },
+        // {
+          // id: 7,
+          // title: "Lake Associations",
+          // sub_heading: "Maine Congress of Lake Associations",
+          // detail: '<a href="http://www.mainecola.org" target="_blank">Maine Congress of Lake Associations</a>'
+          //   },
              {
           id: 8,
           title: "Lake Associations",
           sub_heading: "Lakes Environmental Association",
           detail: '<a href="http://www.mainelakes.org" target="_blank">Maine Lakes Environmental Association</a>'
              },
-            {
-          id: 9,
-          title: "Lake Associations",
-          sub_heading: "Maine Volunteer Lake Monitoring Program",
-          detail: '<a href="http://www.mainevolunteerlakemonitors.org/" target="_blank">Maine Volunteer Lake Monitoring Program</a>'
-             },
-             {
-          id: 10,
-          title: "Lake Associations",
-          sub_heading: "Maine Center for Invasive Aquatic Plants",
-          detail: '<a href="http://www.mainevolunteerlakemonitors.org/mciap" target="_blank">Maine Center for Invasive Aquatic Plants</a>'
-             },
+          //   {
+          // id: 9,
+          // title: "Lake Associations",
+          // sub_heading: "Maine Volunteer Lake Monitoring Program",
+          // detail: '<a href="http://www.mainevolunteerlakemonitors.org/" target="_blank">Maine Volunteer Lake Monitoring Program</a>'
+          //    },
+          //    {
+          // id: 10,
+          // title: "Lake Associations",
+          // sub_heading: "Maine Center for Invasive Aquatic Plants",
+          // detail: '<a href="http://www.mainevolunteerlakemonitors.org/mciap" target="_blank">Maine Center for Invasive Aquatic Plants</a>'
+          //    },
              {
           id: 11,
           title: "Lake Associations",
