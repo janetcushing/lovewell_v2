@@ -18,8 +18,10 @@
             <h2 class="events">Town of Fryeburg</h2>
             </b-row>
             <b-row>
-              <table v-for="tow in town" :key="tow.id">
-                <tr class="table-heading"  v-html="tow.detail">{{tow.detail}}</tr>
+               <table >
+                <tr v-for="tow in town" :key="tow.id"> 
+                  <td class="table-heading" v-html="tow.detail">{{tow.detail}}</td>
+                 </tr>
               </table>
         </b-row>
           <br/><br/>
@@ -70,7 +72,7 @@ export default {
         {
           id: 1,
           title: "Town of Fryeburg",
-          detail: '<a href="www.fryeburgmaine.org/" target="_blank">Town of Fryeburg Website</a>'
+          detail: '<a href="https://www.fryeburgmaine.org/" target="_blank">Town of Fryeburg Website</a>'
         }
       ],
        state: [
