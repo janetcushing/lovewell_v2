@@ -80,29 +80,29 @@ export default {
         {
           id: 2,
           title: "Upcoming Events",
-          sub_heading: "2021 Annual Meeting, planned for a Saturday in July",
+          sub_heading: "2021 Annual Meeting, To Be Scheduled on a Saturday in July",
           detail:
             'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its Annual meeting on a Saturday in July, but the actual date has not been set yet.  The meeting will go from 10:00 AM until noon, and be held at the Rapputak Community Lodge, pending where we are in the Covid pandemic.  Please bring your good ideas and Lake info to share - we look forward to seeing everyone!'
         },
         {
           id: 3,
           title: "Upcoming Events",
-          sub_heading: "Annual Loon Count, held on a Saturday in July (date not set yet)",
+          sub_heading: "Annual Loon Count, To Be Scheduled on a Saturday in July",
           detail:
             "Meet at the Public Boat Ramp at 7 AM, to count the loons on the lake.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks.  We'd love to get kids involved!"
         },
         {
           id: 4,
           title: "Upcoming Events",
-          sub_heading: "First Annual Boat Parade, date not set yet",
+          sub_heading: "First Annual Boat Parade, Is there any interest??",
           detail:
-            "We want to organize our first annual Lovewell Boat Parade!  Is there any interest??  Boats can line up and make 1 (or maybe 2!) laps around the pond.  Please let us know if this is something you are interested in doing! <a href='mailto:lovewellpondassoc@gmail.com' target='_blank'>Email Us</a>"
+            "We want to organize our first annual Lovewell Boat Parade!  Is there any interest??  Boats can line up and make 1 (or maybe 2!) laps around the pond.  Please let us know if this is something you are interested in doing! "
         },
              {
           id: 5,
           title: "Upcoming Events",
           sub_heading: "Plant Identification Paddle - To be Scheduled",
-          detail: "This paddle, starting at the boat ramp, will be scheduled for some time this summer, with Laurie Callahan, a biologist.  Please <a href='mailto:lovewellpondassoc@gmail.com' target='_blank'>Email Us</a> if you are interested in participating and we will keep you in the loop when it gets scheduled.Please fill out our 5 question survey to help with plant identification.   "
+          detail: "This paddle, starting at the boat ramp, will be scheduled for some time this summer, with Laurie Callahan, a biologist.  Email us if you are interested in participating and we will keep you in the loop when it gets scheduled.   In the meantime, please fill out our 5 question survey to help with plant identification. "
              }
       ],
       News: [

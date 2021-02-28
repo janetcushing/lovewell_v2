@@ -13,7 +13,7 @@
           <a href="mailto:lovewellpondassoc@gmail.com" target="_blank">Contact Us</a>
         </p>
         <br />
-        <!-- <p>Website designed by Dawn Sirois, Portsmouth, NH</p> -->
+        <p>Website designed by <a href="mailto:lovewellpondassoc@gmail.com" target="_blank">Dawn Sirois</a>, Portsmouth, NH</p> 
       </b-col>
       <b-col md="1">
             <p >
