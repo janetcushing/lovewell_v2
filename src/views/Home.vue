@@ -94,7 +94,7 @@ export default {
         {
           id: 4,
           title: "Upcoming Events",
-          sub_heading: "First Annual Boat Parade, Sunday, Sept 5th, 4:30 PM, meet at Indian Point Beach",
+          sub_heading: "First Annual Boat Parade, Sunday, Sept 5th, 4:30 PM",
           detail:
             "The property owners of the Lovewell Pond Association are sponsoring our first ever Sunset Boat Regatta!  We will meet Sunday, September 5th at Indian Point Beach at 4:30 pm.  Bring chairs, blankets, wine, beer, drinks and snacks. We will leave Indian Point, circle the lake, arrive back at the beach and together watch the sun go down.  Part of the fun will be decorating our boats, so go wild and be creative! Anything goes- from holiday themes to pirate boats. Above all have fun!"
         },
