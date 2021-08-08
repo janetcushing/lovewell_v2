@@ -17,7 +17,8 @@
       </b-col>
       <b-col md="1">
             <p >
-                <a href= "https://www.wunderground.com/?cm_ven=cgi" target = "_blank"><img  style="border-style: solid;" src="../../assets/images/snow_winter_icon.png" 
+                <a href= "https://www.wunderground.com/?cm_ven=cgi" target = "_blank">Fryeburg Weather
+                   <img  style="border-style: solid;" src="../../assets/images/snow_winter_icon.png" 
                 alt="Click for Fryeburg, Maine Forecast" height="108" width="144" ></a>
                 </p>
         </b-col>
