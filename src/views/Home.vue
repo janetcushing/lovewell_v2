@@ -80,29 +80,29 @@ export default {
         {
           id: 2,
           title: "Upcoming Events",
-          sub_heading: "2021 Annual Meeting, To Be Scheduled on a Saturday in July",
+          sub_heading: "2021 Annual Meeting, Saturday, July 10th",
           detail:
-            'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its Annual meeting on a Saturday in July, but the actual date has not been set yet.  The meeting will go from 10:00 AM until noon, and be held at the Rapputak Community Lodge, pending where we are in the Covid pandemic.  Please bring your good ideas and Lake info to share - we look forward to seeing everyone!'
+            'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its Annual meeting on Saturday, July 10.  The meeting will go from 10:00 AM until noon, and be held at the Rapputak Community Lodge.  Please bring your good ideas and Lake info to share - we look forward to seeing everyone!'
         },
         {
           id: 3,
           title: "Upcoming Events",
-          sub_heading: "Annual Loon Count, To Be Scheduled on a Saturday in July",
+          sub_heading: "Annual Loon Count, Saturday, July 17",
           detail:
             "Meet at the Public Boat Ramp at 7 AM, to count the loons on the lake.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks.  We'd love to get kids involved!"
         },
         {
           id: 4,
           title: "Upcoming Events",
-          sub_heading: "First Annual Boat Parade, Is there any interest??",
+          sub_heading: "First Annual Boat Parade, Sunday, Sept 5th, 4:30 PM",
           detail:
-            "We want to organize our first annual Lovewell Boat Parade!  Is there any interest??  Boats can line up and make 1 (or maybe 2!) laps around the pond.  Please let us know if this is something you are interested in doing! "
+            "The property owners of the Lovewell Pond Association are sponsoring our first ever Sunset Boat Regatta!  We will meet Sunday, September 5th at Indian Point Beach at 4:30 pm.  Bring chairs, blankets, wine, beer, drinks and snacks. We will leave Indian Point, circle the lake, arrive back at the beach and together watch the sun go down.  Part of the fun will be decorating our boats, so go wild and be creative! Anything goes- from holiday themes to pirate boats. Above all have fun!"
         },
              {
           id: 5,
           title: "Upcoming Events",
           sub_heading: "Plant Identification Paddle - To be Scheduled",
-          detail: "This paddle, starting at the boat ramp, will be scheduled for some time this summer, with Laurie Callahan, a biologist.  Email us if you are interested in participating and we will keep you in the loop when it gets scheduled.   In the meantime, please fill out our 5 question survey to help with plant identification. "
+          detail: "This paddle will not be scheduled for 2021 because our biologist, Laurie Callahan, is not available.  Please email us if you are interested in participating and we will keep you in the loop when the next one is scheduled.   In the meantime, please fill out our 5 question survey to help with plant identification. "
              }
       ],
       News: [
