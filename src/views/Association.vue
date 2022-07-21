@@ -22,14 +22,23 @@
           </b-row>
           <br/>
           <b-row>
-            <h5 class="splash">We currently have 2 open Director's positions.  Please <a href="mailto:lovewellpondassoc@gmail.com" target="_blank">contact us</a> if you would like to volunteer!</h5>
+            <h5 class="splash">We currently have open positions on our board.  Please <a href="mailto:lpa-eboard@googlegroups.com" target="_blank">contact us</a> if you would like to volunteer!</h5>
           </b-row>
           <br/>
           <b-row>
-            <h6><strong>Nominations and Election of Officers – </strong></h6><p>As we have done for the past 14 years, the attendees voted to extend the same board members at our last meeting.  Please consider serving as a board member.&nbsp;&nbsp;Just send us <a href="mailto:lovewellpondassoc@gmail.com" target="_blank">an e-mail</a> and we’ll get you up to speed.  It’s been 15 years for so many of us and time to transition to some new folks, with new plans and new ideas for the LPA.</p>
-          </b-row>
+            <h6><strong>A Special <span class="splash">THANK YOU</span> to Collen, Peter and the rest of our board, past and present ! </strong></h6>
+            <p>Colleen and Peter, our Members at Large, are the folks who know everything about Lovewell Pond, and have been protecting it for many, many years.  We appreciate them for their years of service!</p>
+            <p></p>
+         </b-row>
+         <b-row>
+          <h6><strong>Fryeburg Shooting Facility Environmental Assessment Study </strong></h6>
+            <p>An environmental study on the proposed changes to the shooting range has been done by the Maine Department 
+              of Inland Fisheries and Wildlife and U.S. Fish and Wildlife Service.  A link to the document, and a place to submit your 
+              comments on the plan are <a href="https://www.maine.gov/ifw/programs-resources/recreational-opportunities/fryeburg-environmental-assessment.html" target="_blank">here</a>,  They are asking for comments to be sent to them by August 15th. </p>
+          <p></p>
+        </b-row>
            <b-row>
-              <h6><strong>Meeting Minutes:</strong></h6>
+              <h6><strong>LPA Annual Meeting Minutes:</strong></h6>
                 <ul style="list-style-type: none;">
                   <b-row>
                   <li><a href="2019LovewellPondAnnualMeetingMinutes.pdf" target="_blank">2019</a></li>
@@ -61,48 +70,38 @@ export default {
         {
           id: 1,
           title: "President:",
-          name: "Gene Bergoffen"
-         },
-          {
-          id: 2,
-          title: "Vice President:",
-          name: "Peter Wilkins"
+          name: "Dori Stern"
          },
           {
           id: 3,
-          title: "Secretary:",
-          name: "Colleen Wilkins"
-         },
-          {
-          id: 4,
           title: "Treasurer:",
           name: "Paul Fortin"
          },
           {
+          id: 4,
+          title: "Administrative Assistant:",
+          name: "Tony Gosselin"
+         },
+          {
           id: 5,
-          title: "Directors:",
-          name: "Peter Bourneuf,"
+          title: "Members at Large:",
+          name: "Peter Wilkins"
          },
          {
           id: 6,
           title: "",
-          name: "Debbie Fortin,"
+          name: "Colleen Wilkins"
          },
          {
           id: 7,
-          title: "",
-          name: "Mike Cherry,"
+          title: "Social Media Specialist",
+          name: "Mike Cherry"
          },
-         {
-          id: 8,
-          title: "",
-          name: "Frank Goebtz"
-         },
-          {
+        {
           id: 9,
           title: "Webmaster of this site:",
           name: "Janet Cushing"
-         }
+        }
       ],
       minutes: [
         {

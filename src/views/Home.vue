@@ -46,7 +46,7 @@
               </table>
             </div>
             <!-- </b-col> -->
-                <p><b-button variant="success" style="color: white;" href="Fryeburg Range Environmental Assessment with comments.pdf" target=“_blank”>Fryeburg Shooting Facility Environmental Assessment Document</b-button></p>
+                <p><b-button variant="success" style="color: white;" href="https://www.maine.gov/ifw/programs-resources/recreational-opportunities/fryeburg-environmental-assessment.html" target=“_blank”>Fryeburg Shooting Facility Environmental Assessment</b-button></p>
         </b-row>
         </b-col>
         <b-col md="1">
@@ -91,8 +91,8 @@ export default {
          {
           id: 5,
           title: "Upcoming Events",
-          sub_heading: "Brickoven Pizza at the Saco River Brewery Wednesday, July 27th, 4:30 PM",
-          detail: "It’s Brickoven Pizza night at the Saco River Brewery! Meet your neighbors and enjoy some drinks and pizza! Look for the sign that says 'Lovewell Pond Association' and come join us! Saco River Brewery is located just off Route 302 at 10 Jockey Cap Ln, Fryeburg."
+          sub_heading: "Wood Fired Pizza at the Saco River Brewery, Wednesday, July 27th, 4:30 PM",
+          detail: "It’s Pizza night at the Saco River Brewery! Wood fired pizza and wings will be available from Blaze Brewing in Biddeford.  Come meet your neighbors and enjoy some drinks and pizza! Look for the sign that says 'Lovewell Pond Association' and come join us! Saco River Brewery is located just off Route 302 at 10 Jockey Cap Ln, Fryeburg."
         },
        /* {
           id: 3,
@@ -108,14 +108,19 @@ export default {
           detail:
             "The property owners of the Lovewell Pond Association are sponsoring our second Sunset Boat Regatta!  We will meet Saturday, August 20th at Indian Point Beach at 4:00 pm.  ( Rain Date Sunday August 21st, 4 PM)  Bring chairs, blankets, wine, beer, drinks and snacks. We will leave Indian Point, circle the lake, arrive back at the beach and together watch the sun go down.  Part of the fun will be decorating our boats, so go wild and be creative! Anything goes - from holiday themes to pirate boats.  Above all have fun!"
         },
-          
-              {
+        {
+          id: 3,
+          title: "Upcoming Events",
+          sub_heading: "Community Pot Luck Dinner, Saturday, August 27th",
+          detail: "Come join your Lovewell Pond friends and neighbors for a community pot luck dinner, which will be held on Saturday, August 27th.  Stay tuned for details to come!"
+        },
+        {
           id: 2,
           title: "Upcoming Events",
           sub_heading: "2023 Annual Meeting, Saturday, June 25th",
           detail:
             'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its next Annual meeting on Saturday, June 25, 2023.  The meeting will go from 10:00 AM until noon, and be held at the Rapputak Community Lodge.  Please bring your good ideas and Lake info to share - we look forward to seeing everyone!'
-        },
+        }
       ],
       News: [
        /* {
@@ -128,8 +133,8 @@ export default {
             {
           id: 6,
           title: "News and Announcements",
-          sub_heading: "Provide your feedback on the proposed changes to the gun range by Sunday, July 31st",
-          detail: "An environmental study on the proposed changes to the shooting range has been done by the Maine Department of Inland Fisheries and Wildlife and U.S. Fish and Wildlife Service.  A link to the document is below.  They are asking for comments to be sent to them by July 31.  Comments are being accepted via the website, email or mail, contact info is here: https://www.maine.gov/ifw/about/contact/index.html  "
+          sub_heading: "Provide your feedback on the proposed changes to the gun range by Friday, August 15th",
+          detail: "An environmental study on the proposed changes to the shooting range has been done by the Maine Department of Inland Fisheries and Wildlife and U.S. Fish and Wildlife Service.  A link to the study is below, along with a place to submit your comments.  They are asking for comments to be sent by August 15. "
            },
        /*   {
           id: 8,
