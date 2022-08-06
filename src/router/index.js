@@ -37,6 +37,11 @@ const routes = [
     path: '/gallery',
     name: 'Gallery',
     component: () => import('../views/Gallery.vue')
+  },
+  {
+    path: '/lostandfound',
+    name: 'Lost and Found',
+    component: () => import('../views/LostAndFound.vue')
   }
 ]
 

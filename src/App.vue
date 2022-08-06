@@ -8,7 +8,7 @@
             <router-link class="spacing" to="/association">The Association</router-link>
             <router-link class="spacing" to="/resources">Resources</router-link>
             <router-link class="spacing" to="/gallery">Photo Gallery</router-link> -->
-          </div>
+    </div>
      <router-view /> 
       <Footer />
   </div>
