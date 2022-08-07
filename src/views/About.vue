@@ -106,27 +106,32 @@
             <ul style="list-style-type: circle;">
                <b-row>
               <li class="table-row">
-                <a href="www.loon.org" target = "_blank">Loon Preservation Committee, Moultonboro, NH</a>
+                <a href="https://loon.org" target = "_blank">Loon Preservation Committee, Moultonboro, NH</a>
               </li>
               </b-row>
           <b-row>
               <li class="table-row">
-                <a href="www.maineaudubon.org" target = "_blank">Maine Audubon</a>
+                <a href="https://maineaudubon.org" target = "_blank">Maine Audubon</a>
               </li>
               </b-row>
           <b-row>
               <li class="table-row">
-                <a href="https://www.maineaudubon.org/projects/loons/annual-loon-count/" target = "_blank">The Annual Loon Count</a>
+                <a href="https://maineaudubon.org/wp-content/uploads/2020/06/Loon-Territory-Brochure-WEB.pdf" target = "_blank">Living in Loon Territory Brochure</a>
               </li>
               </b-row>
           <b-row>
               <li class="table-row">
-                <a href="https://www.thespruce.com/birding-and-wild-birds-4127712" target = "_blank">The Spruce - on birding</a>
+                <a href="https://maineaudubon.org/projects/loons/annual-loon-count/" target = "_blank">The Annual Loon Count</a>
               </li>
               </b-row>
           <b-row>
               <li class="table-row">
-                <a href="www.michiganloons.org" target = "_blank">Michigan Loon Preservation</a>
+                <a href="https://thespruce.com/birding-and-wild-birds-4127712" target = "_blank">The Spruce - on birding</a>
+              </li>
+              </b-row>
+          <b-row>
+              <li class="table-row">
+                <a href="michiganloons.org" target = "_blank">Michigan Loon Preservation</a>
               </li>
               </b-row>
             </ul>

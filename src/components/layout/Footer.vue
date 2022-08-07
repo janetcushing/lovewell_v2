@@ -10,10 +10,10 @@
         <p>Property Owners of Lovewell Pond Association</p>
         <p>P.O. Box 617, Fryeburg, ME 04037</p>
         <p>
-          <a href="mailto:lovewellpondassoc@gmail.com" target="_blank">Contact Us</a>
+          <a href="mailto:lpa-eboard@googlegroups.com" target="_blank">Contact Us</a>
         </p>
         <br />
-        <p>Website designed by <a href="mailto:lovewellpondassoc@gmail.com" target="_blank">Dawn Sirois</a>, Portsmouth, NH</p> 
+        <p>Website designed by <a href="mailto:lpa-eboard@googlegroups.com" target="_blank">Dawn Sirois</a>, Portsmouth, NH</p> 
       </b-col>
       <b-col md="1">
             <p >
