@@ -4,28 +4,41 @@
     <br />
     <br />
     <b-container class="blurb-container">
+        <b-col md="1"></b-col>
+        <b-col md="10">
           <b-row>
-            <h2 class="splash">Here are some lost and found items.  <a href="mailto:lpa-eboard@googlegroups.com" target="_blank">Contact us</a> for more information</h2>
+            <h2 class="splash">
+              <p>Here are some lost and found items. </p>
+              <p> Please <a href="mailto:lpa-eboard@googlegroups.com" target="_blank">Contact us</a> if you know anything about these items!</p>
+            </h2>
           </b-row>
           <br/>
        <b-row>
+  
             <table>
               <col width="175" />
               <tr v-for="item in items" :key="item.id">
-                <td class="table-heading">{{item.title}}</td>
-                <td class="table-row">{{item.desc}}</td>
-                 <td class="table-row">{{item.photo}}</td>
-                <td class="table-row"> <img v-bind:src="item.photo" v-bind:alt="item.alt" style="width:300px"/></td>
-                <td>&nbsp;  </td> 
-                 <td>&nbsp;  </td> 
-                  <td>&nbsp;  </td> 
-                   <td>&nbsp;  </td> 
-
+              <td>
+                <thead class="table-heading">{{item.title}}</thead>
+                <tr class="table-row">{{item.desc}}</tr>
+                <tr class="table-row"> 
+                  <img v-bind:src="item.photo" v-bind:alt="item.alt" style="width:350px"/>
+                </tr>
+                
+                <tr>&nbsp;  </tr> 
+                 <tr>&nbsp;  </tr> 
+</td>
               </tr>
                <br/>
             </table>
           </b-row>
+          <b-row>
+            <h2 class="splash">Please <a href="mailto:lpa-eboard@googlegroups.com" target="_blank">email us</a> with any info!</h2>
+          </b-row>
           <br/>
+          </b-col>
+         <b-col md="1">
+        </b-col>
     </b-container>
     <hr />
     <Footer />
@@ -49,18 +62,18 @@ export default {
         {
           id: 1,
           date: 'July 2022',
-          title: "Lost Dock",
-          desc: "A piece of dock washed up at 61 Kaiser Drive.",
-          photo: require('../assets/images/sunsetwinter.jpg'),
-          alt: 'sunset'
+          title: "Did you lose a dock??",
+          desc: "A piece of a dock washed up at 61 Kaiser Drive.",
+          photo: require('../assets/images/lostandfound/lostDock.jpeg'),
+          alt: 'found dock'
          },
          {
           id: 2,
           date: 'July 2022',
-          title: "Lost Dog",
-          desc: "A lost dog was found swimming in the pond",
-          photo: require('../assets/images/sunsetwinter.jpg'),
-           alt: 'lovely sunset'
+          title: "Did you find some dock sections??",
+          desc: "3 sections were lost from this dock, located on Moose Rock Road.  Please let us know if you find the missing sections.",
+          photo: require('../assets/images/lostandfound/lostdocksections.jpeg'),
+           alt: 'lost dock sections'
          }
       ]
   }
@@ -85,20 +98,20 @@ export default {
 }
 .table-heading {
   left: 170px;
-   height: 38px; 
-  font: Bold 16px/16px "Open Sans";
+  height: 38px;
+  font: Bold 20px/20px "Open Sans";
   font-family: "Open Sans", sans-serif;
   letter-spacing: 10;
   color: #287492;
   opacity: 1;
 }
 .table-row {
-  top: 30px;
+   top: 30px;
   left: 0px;
-  /* height: 24px; */
-   font: Bold 14px/14px "Open Sans";
+  height: 24px;
+  font: Regular 18px/30px "Open Sans";
   font-family: "Open Sans", sans-serif;
-  letter-spacing: 0;
+  letter-spacing: 10;
   color: #343638;
 }
 
@@ -119,7 +132,7 @@ export default {
   background: aqua;
 }
 .splash {
-   font: Regular 14px/14px "Open Sans";
+  font: Regular 14px/14px "Open Sans";
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   color: #cc1717;
