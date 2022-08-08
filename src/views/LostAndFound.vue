@@ -7,10 +7,10 @@
         <b-col md="1"></b-col>
         <b-col md="10">
           <b-row>
-            <h2 class="splash">
+            <h3 class="splash">
               <p>Here are some lost and found items. </p>
-              <p> Please <a href="mailto:lpa-eboard@googlegroups.com" target="_blank">Contact us</a> if you know anything about these items!</p>
-            </h2>
+              <p> Please <a href="mailto:lpa-eboard@googlegroups.com" target="_blank">Contact us</a> if you know anything about these items, or if you have another lost or found item to report</p>
+            </h3>
           </b-row>
           <br/>
        <b-row>
