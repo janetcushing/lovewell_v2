@@ -22,6 +22,11 @@
         </b-row>
         <br /> <br /> 
         <b-row>
+         <h2 class="assoc">Join our Facebook Group</h2> 
+         <p>To see pics of the lake and neighborhood updates, as well as Lost and Found Items: <a href="https://www.facebook.com/groups/553797096434971" target="_blank">Lovewell Pond Facebook Link</a> </p>
+        </b-row>
+        <br /> <br /> 
+        <b-row>
           <!-- <b-col md="12"> -->
             <h2 class="events">Upcoming Events</h2>
             <div v-for="event in Events" :key="event.id">
@@ -88,12 +93,12 @@ export default {
         }
       ],
       Events: [
-         {
-          id: 5,
-          title: "Upcoming Events",
-          sub_heading: "Wood Fired Pizza at the Saco River Brewery, Wednesday, July 27th, 4:30 PM",
-          detail: "It’s Pizza night at the Saco River Brewery! Wood fired pizza and wings will be available from Blaze Brewing in Biddeford.  Come meet your neighbors and enjoy some drinks and pizza! Look for the sign that says 'Lovewell Pond Association' and come join us! Saco River Brewery is located just off Route 302 at 10 Jockey Cap Ln, Fryeburg."
-        },
+        //  {
+        //   id: 5,
+        //   title: "Upcoming Events",
+        //   sub_heading: "Wood Fired Pizza at the Saco River Brewery, Wednesday, July 27th, 4:30 PM",
+        //   detail: "It’s Pizza night at the Saco River Brewery! Wood fired pizza and wings will be available from Blaze Brewing in Biddeford.  Come meet your neighbors and enjoy some drinks and pizza! Look for the sign that says 'Lovewell Pond Association' and come join us! Saco River Brewery is located just off Route 302 at 10 Jockey Cap Ln, Fryeburg."
+        // },
        /* {
           id: 3,
           title: "Upcoming Events",
@@ -101,18 +106,18 @@ export default {
           detail:
             "Meet at the Public Boat Ramp at 7 AM, to count the loons on the lake.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks.  We'd love to get kids involved!"
         }, */
-        {
-          id: 4,
-          title: "Upcoming Events",
-          sub_heading: "Second Annual Boat Parade, Saturday, August 20th, 4:00 PM to Sundown",
-          detail:
-            "The property owners of the Lovewell Pond Association are sponsoring our second Sunset Boat Regatta!  We will meet Saturday, August 20th at Indian Point Beach at 4:00 pm.  ( Rain Date Sunday August 21st, 4 PM)  Bring chairs, blankets, wine, beer, drinks and snacks. We will leave Indian Point, circle the lake, arrive back at the beach and together watch the sun go down.  Part of the fun will be decorating our boats, so go wild and be creative! Anything goes - from holiday themes to pirate boats.  Above all have fun!"
-        },
+        // {
+        //   id: 4,
+        //   title: "Upcoming Events",
+        //   sub_heading: "Second Annual Boat Parade, Saturday, August 20th, 4:00 PM to Sundown",
+        //   detail:
+        //     "The property owners of the Lovewell Pond Association are sponsoring our second Sunset Boat Regatta!  We will meet Saturday, August 20th at Indian Point Beach at 4:00 pm.  ( Rain Date Sunday August 21st, 4 PM)  Bring chairs, blankets, wine, beer, drinks and snacks. We will leave Indian Point, circle the lake, arrive back at the beach and together watch the sun go down.  Part of the fun will be decorating our boats, so go wild and be creative! Anything goes - from holiday themes to pirate boats.  Above all have fun!"
+        // },
         {
           id: 3,
           title: "Upcoming Events",
-          sub_heading: "Community Pot Luck Dinner, Saturday, August 27th",
-          detail: "Come join your Lovewell Pond friends and neighbors for a community pot luck dinner, which will be held on Saturday, August 27th.  Stay tuned for details to come!"
+          sub_heading: "Community Pot Luck Dinner, Saturday, August 27th, 5:00 PM",
+          detail: "Come join your Lovewell Pond friends and neighbors for a community pot luck dinner, which will be held on Saturday, August 27th at 5 PM.  The theme is 'Italy on the Pond'.  If your name begins with A through G, please bring a side dish to share; if your name begins with H through R, please bring a main dish to share; and if your name begins with S through Z, please bring a dessert to share.  Everyone should bring their own drinks, and lawn chairs.  Please park on the road at Rappatuck, and walk down to the Rec Hall.  The parking lot next to the Rec Hall is reserved for those with difficulty walking from the road.  And don't forget to bring your appetite!"
         },
         {
           id: 2,
