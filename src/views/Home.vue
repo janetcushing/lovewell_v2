@@ -113,12 +113,12 @@ export default {
         //   detail:
         //     "The property owners of the Lovewell Pond Association are sponsoring our second Sunset Boat Regatta!  We will meet Saturday, August 20th at Indian Point Beach at 4:00 pm.  ( Rain Date Sunday August 21st, 4 PM)  Bring chairs, blankets, wine, beer, drinks and snacks. We will leave Indian Point, circle the lake, arrive back at the beach and together watch the sun go down.  Part of the fun will be decorating our boats, so go wild and be creative! Anything goes - from holiday themes to pirate boats.  Above all have fun!"
         // },
-        {
-          id: 3,
-          title: "Upcoming Events",
-          sub_heading: "Community Pot Luck Dinner, Saturday, August 27th, 5:00 PM",
-          detail: "Come join your Lovewell Pond friends and neighbors for a community pot luck dinner, which will be held on Saturday, August 27th at 5 PM.  The theme is 'Italy on the Pond'.  If your name begins with A through G, please bring a side dish to share; if your name begins with H through R, please bring a main dish to share; and if your name begins with S through Z, please bring a dessert to share.  Everyone should bring their own drinks, and lawn chairs.  Please park on the road at Rappatuck, and walk down to the Rec Hall.  The parking lot next to the Rec Hall is reserved for those with difficulty walking from the road.  And don't forget to bring your appetite!"
-        },
+        // {
+        //   id: 3,
+        //   title: "Upcoming Events",
+        //   sub_heading: "Community Pot Luck Dinner, Saturday, August 27th, 5:00 PM",
+        //   detail: "Come join your Lovewell Pond friends and neighbors for a community pot luck dinner, which will be held on Saturday, August 27th at 5 PM.  The theme is 'Italy on the Pond'.  If your name begins with A through G, please bring a side dish to share; if your name begins with H through R, please bring a main dish to share; and if your name begins with S through Z, please bring a dessert to share.  Everyone should bring their own drinks, and lawn chairs.  Please park on the road at Rappatuck, and walk down to the Rec Hall.  The parking lot next to the Rec Hall is reserved for those with difficulty walking from the road.  And don't forget to bring your appetite!"
+        // },
         {
           id: 2,
           title: "Upcoming Events",
