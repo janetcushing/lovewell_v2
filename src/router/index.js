@@ -33,11 +33,11 @@ const routes = [
     name: 'Resources',
     component: () => import('../views/Resources.vue')
   },
-  {
-    path: '/gallery',
-    name: 'Gallery',
-    component: () => import('../views/Gallery.vue')
-  },
+  // {
+  //   path: '/gallery',
+  //   name: 'Gallery',
+  //   component: () => import('../views/Gallery.vue')
+  // },
   {
     path: '/lostandfound',
     name: 'Lost and Found',

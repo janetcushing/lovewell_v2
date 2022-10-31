@@ -15,8 +15,8 @@
           <br/>
        <b-row>
   
-            <table>
-              <col width="175" />
+            <table width="575">
+              <!-- <col /> -->
               <tr v-for="item in items" :key="item.id">
               <td>
                 <thead class="table-heading">{{item.title}}</thead>
@@ -59,13 +59,29 @@ export default {
   data() {
     return {
       items: [
+      {
+          id: 6,
+          date: 'October 2022',
+          title: "Yellow Canoe, and gear lost from Indian Beach ",
+          desc: "We were camping at Indian Beach, and the water came up over night, and a yellow canoe with two paddles, two yellow pdfs, a black backpack and a fishing pole were lost.  If found, please call or text at 207-740-8753",
+          photo: "",
+          alt: ''
+         },
         {
-          id: 1,
-          date: 'July 2022',
-          title: "Did you lose a dock??",
-          desc: "A piece of a dock washed up at 61 Kaiser Drive.",
-          photo: require('../assets/images/lostandfound/lostDock.jpeg'),
-          alt: 'found dock'
+          id: 5,
+          date: 'October 2022',
+          title: "Lost Dock, pictured below: ",
+          desc: "If found, please email melissapatti4@gmail.com",
+          photo: require('../assets/images/lostandfound/IMG_7985.jpeg'),
+          alt: 'lost doc'
+         },
+         {
+          id: 3,
+          date: 'September 2022',
+          title: "Red kayak found at Pine Island",
+          desc: "It is now being moored at 84 Ruths Way.",
+          photo: require('../assets/images/lostandfound/redKayak.jpg'),
+          alt: 'RED KAYAK'
          },
          {
           id: 2,
@@ -74,7 +90,16 @@ export default {
           desc: "3 sections were lost from this dock, located on Moose Rock Road.  Please let us know if you find the missing sections.",
           photo: require('../assets/images/lostandfound/lostdocksections.jpeg'),
            alt: 'lost dock sections'
-         }
+         },
+          {
+          id: 1,
+          date: 'July 2022',
+          title: "Did you lose a dock??",
+          desc: "A section of a dock washed up at Rappatuck Beach.  It is labeled 4 on one end, and 5 on the other.",
+          photo: require('../assets/images/lostandfound/lostDock.jpeg'),
+          alt: 'found dock'
+         },
+        
       ]
   }
 }

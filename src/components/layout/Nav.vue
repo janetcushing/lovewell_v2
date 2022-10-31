@@ -12,7 +12,7 @@
                 <b-nav-item to="/about">Lovewell Pond</b-nav-item>
                 <b-nav-item to="/association">The Association</b-nav-item>
                 <b-nav-item to="/resources">Resources</b-nav-item>
-                <b-nav-item to="/gallery">Photo Gallery</b-nav-item>
+                <!-- <b-nav-item to="/gallery">Photo Gallery</b-nav-item> -->
                  <b-nav-item to="/lostandfound">Lost and Found</b-nav-item>
                        <!-- <b-nav-item to="/gallery">Photo Gallery</b-nav-item> -->
                 <!-- <b-nav-item href="#" disabled>Disabled</b-nav-item> -->

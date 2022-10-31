@@ -42,7 +42,25 @@
         </b-row>
         <br />
         <b-row>
-          <h3 class="table-heading">Lake Scenery</h3>
+          <li
+            class="list"
+            v-for="photo in animalsHoriz"
+            :key="photo.id"
+            style="width: 36rem"
+          >
+            <div class="card">
+              <img
+                v-bind:src="photo.photo"
+                v-bind:alt="photo.alt"
+                class="card-img-top"
+              />
+              <div class="card-body">
+                <h5 class="card-title">{{ photo.title }}</h5>
+                <p class="card-text">{{ photo.desc }}</p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+              </div>
+            </div>
+          </li>
         </b-row>
         <b-row>
           <li
@@ -105,6 +123,7 @@ export default {
   data() {
     return {
       animalsVert: [
+     
         {
           id: 1,
           date: "2021",
@@ -122,7 +141,16 @@ export default {
           alt: "2 young deer",
         },
       ],
-      animalsHoriz: [],
+      animalsHoriz: [
+      {
+          id: 1,
+          date: "2021",
+          title: "Bald Eagle",
+          desc: "Bald Eagle on Beach",
+          photo: require("../assets/images/gallery/BaldEagleOnBeach.jpg"),
+          alt: "Bald Eagle",
+        },
+      ],
       sceneryHoriz: [
         {
           id: 3,

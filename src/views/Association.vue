@@ -26,7 +26,7 @@
           </b-row>
           <br/>
           <b-row>
-            <h6><strong>A Special <span class="splash">THANK YOU</span> to Colleen, Peter and the rest of our board, past and present ! </strong></h6>
+            <h6><strong>A Special <span class="splash">THANK YOU</span> to all of our board, past and present ! </strong></h6>
             <p>Colleen and Peter, our Members at Large, are the folks who know everything about Lovewell Pond, and have been protecting it for many, many years.  We appreciate them for their years of service!</p>
             <p></p>
          </b-row>
