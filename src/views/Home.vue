@@ -7,19 +7,20 @@
         <b-col md="1"></b-col>
         <b-col md="10">
           <b-row>
-          <!-- <b-col md="12"> -->
             <h2 class="assoc">The Lovewell Pond Association</h2>
             <div v-for="association in Associations" :key="association.id">
               <table>
+                <th class="table-heading">{{association.sub_heading}}</th>
                 <tr class="table-row">{{association.detail}}</tr>
-                 <tr class="table-row"></tr>
+                <!-- <tr><a :href="association.link" target="_blank">{{ association.linkLabel }}</a></tr> -->
+                <tr v-if="association.link"><b-button variant="success" style="color: white;" :href="association.link" target = "_blank">{{ association.linkLabel }}</b-button> </tr> 
+                <tr class="table-row"></tr>
               </table>
             </div>
-          <!-- </b-col> -->
         </b-row>
-        <b-row>
+        <!-- <b-row>
         <b-button variant="success" style="color: white;" href= "https://www.surveymonkey.com/r/WK6KSPW" target = "_blank">Lake Survey</b-button> 
-        </b-row>
+        </b-row> -->
         <br /> <br /> 
         <b-row>
          <h2 class="assoc">Join our Facebook Group</h2> 
@@ -51,7 +52,7 @@
               </table>
             </div>
             <!-- </b-col> -->
-                <p><b-button variant="success" style="color: white;" href="https://www.maine.gov/ifw/programs-resources/recreational-opportunities/fryeburg-environmental-assessment.html" target=“_blank”>Fryeburg Shooting Facility Environmental Assessment</b-button></p>
+                <!-- <p><b-button variant="success" style="color: white;" href="https://www.maine.gov/ifw/programs-resources/recreational-opportunities/fryeburg-environmental-assessment.html" target=“_blank”>Fryeburg Shooting Facility Environmental Assessment</b-button></p> -->
         </b-row>
         </b-col>
         <b-col md="1">
@@ -82,14 +83,26 @@ export default {
           title: "The Lovewell Pond Association",
           sub_heading: null,
           detail:
-            "The Lovewell Pond Association is a group dedicated to the care, enhancement, and preservation of Lovewell Pond located in Fryeburg, Maine. The LPA is interested in all aspects of lake preservation including: Lake Uses, Wildlife, Water Quality, Public Access, Shoreline, Maine Regulations & Other Associations."
+            "The Lovewell Pond Association is a group dedicated to the care, enhancement, and preservation of Lovewell Pond located in Fryeburg, Maine. The LPA is interested in all aspects of lake preservation including: Lake Uses, Wildlife, Water Quality, Public Access, Shoreline, Maine Regulations & Other Associations.",
+          link: null,
+          linkLabel: null
+          },
+        {
+          id: 2,
+          title: "The Lovewell Pond Association",
+          sub_heading: "Please Help us Protect our Loons.",
+          detail: 'Did you know that Common Loons are protected by both state and federal laws prohibiting harassment of wildlife?  Last year, our loons were frightened off their nests by boats getting too close, boat wakes, and once, by young campers shaking the floating nests!  Please consider sharing this Loon Poster from the Maine Audubon Society with your friends, family, and renters, to help protect our loons.',
+          link: "https://www.maine.gov/ifw/docs/livingwithloons.pdf?fbclid=IwAR1EUtdaFbGhmYBcdFhrrmghQYvEHhoV-TuIvRND6xNlb8KaZyROeMbALxc",
+          linkLabel: "Living With Loons Brochure"
         },
          {
           id: 3,
           title: "The Lovewell Pond Association",
-          sub_heading: null,
+          sub_heading: "Lake Survey",
           detail:
-            "Please take our 5 question survey on Lovewell Pond"
+            "Please take our 5 question survey on Lovewell Pond",
+          link: "https://www.surveymonkey.com/r/WK6KSPW",
+          linkLabel: "Lake Survey"
         }
       ],
       Events: [
@@ -122,9 +135,9 @@ export default {
         {
           id: 2,
           title: "Upcoming Events",
-          sub_heading: "2023 Annual Meeting, Saturday, June 25th",
+          sub_heading: "2023 Annual Meeting, Saturday, June 24th",
           detail:
-            'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its next Annual meeting on Saturday, June 25, 2023.  The meeting will go from 10:00 AM until noon, and be held at the Rapputak Community Lodge.  Please bring your good ideas and Lake info to share - we look forward to seeing everyone!'
+            'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its Annual meeting on Saturday, June 24, at the Rapputak Community Lodge at 9:30 AM.  From 9:30 to 10:00, we will have coffee and donuts and a chance to socialize with your neighbors here on Lovewell.  The business portion of the meeting will begin at 10:00 AM and go until noon.  Please bring your good ideas to share - we look forward to seeing everyone!'
         }
       ],
       News: [
@@ -135,12 +148,12 @@ export default {
           detail:
             "Lovewell Pond Ice-Out was on April 6th, 2020, about 12 days earlier than in 2019."
             },*/
-            {
-          id: 6,
-          title: "News and Announcements",
-          sub_heading: "Provide your feedback on the proposed changes to the gun range by Friday, August 15th",
-          detail: "An environmental study on the proposed changes to the shooting range has been done by the Maine Department of Inland Fisheries and Wildlife and U.S. Fish and Wildlife Service.  A link to the study is below, along with a place to submit your comments.  They are asking for comments to be sent by August 15. "
-           },
+          //   {
+          // id: 6,
+          // title: "News and Announcements",
+          // sub_heading: "Provide your feedback on the proposed changes to the gun range by Friday, August 15th",
+          // detail: "An environmental study on the proposed changes to the shooting range has been done by the Maine Department of Inland Fisheries and Wildlife and U.S. Fish and Wildlife Service.  A link to the study is below, along with a place to submit your comments.  They are asking for comments to be sent by August 15. "
+          //  },
        /*   {
           id: 8,
           title: "News and Announcements",

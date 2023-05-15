@@ -10,7 +10,7 @@
             <h2 class="assoc">Resources</h2>
             </b-row>
             <b-row>
-                <p class="table-row">A number of agencies and organizations have programs and activities which affect the work of the Lovewell Pond Association, and which influence the uses and environment of the Pond.</p> 
+                <p class="table-row">A number of agencies and organizations have programs and activities which affect our Lovewell Pond Community, and which influence the uses and environment of the Pond.</p> 
         </b-row> 
         <br/><br/>
         <br/>

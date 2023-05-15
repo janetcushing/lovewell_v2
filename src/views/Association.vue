@@ -30,21 +30,21 @@
             <p>Colleen and Peter, our Members at Large, are the folks who know everything about Lovewell Pond, and have been protecting it for many, many years.  We appreciate them for their years of service!</p>
             <p></p>
          </b-row>
-         <b-row>
+         <!-- <b-row>
           <h6><strong>Fryeburg Shooting Facility Environmental Assessment Study </strong></h6>
             <p>An environmental study on the proposed changes to the shooting range has been done by the Maine Department 
               of Inland Fisheries and Wildlife and U.S. Fish and Wildlife Service.  A link to the document, and a place to submit your 
               comments on the plan are <a href="https://www.maine.gov/ifw/programs-resources/recreational-opportunities/fryeburg-environmental-assessment.html" target="_blank">here</a>,  They are asking for comments to be sent to them by August 15th. </p>
           <p></p>
-        </b-row>
-           <b-row>
+        </b-row> -->
+           <!-- <b-row>
               <h6><strong>LPA Annual Meeting Minutes:</strong></h6>
                 <ul style="list-style-type: none;">
                   <b-row>
                   <li><a href="2019LovewellPondAnnualMeetingMinutes.pdf" target="_blank">2019</a></li>
                   </b-row>
                 </ul>
-          </b-row>
+          </b-row> -->
         </b-col>
       </b-row>
     </b-container>
