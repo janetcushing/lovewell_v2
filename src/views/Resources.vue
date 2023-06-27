@@ -10,7 +10,7 @@
             <h2 class="assoc">Resources</h2>
             </b-row>
             <b-row>
-                <p class="table-row">A number of agencies and organizations have programs and activities which affect the work of the Lovewell Pond Association, and which influence the uses and environment of the Pond.</p> 
+                <p class="table-row">A number of agencies and organizations have programs and activities which affect our Lovewell Pond Community, and which influence the uses and environment of the Pond.</p> 
         </b-row> 
         <br/><br/>
         <br/>
@@ -73,6 +73,11 @@ export default {
           id: 1,
           title: "Town of Fryeburg",
           detail: '<a href="https://www.fryeburgmaine.org/" target="_blank">Town of Fryeburg Website</a>'
+        },
+        {
+          id: 1,
+          title: "Fryeburg Recreation Department",
+          detail: '<a href="https://www.fryeburgrec.com/" target="_blank">Fryeburg Recreation Department</a>'
         }
       ],
        state: [
