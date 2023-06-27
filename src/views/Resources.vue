@@ -73,6 +73,11 @@ export default {
           id: 1,
           title: "Town of Fryeburg",
           detail: '<a href="https://www.fryeburgmaine.org/" target="_blank">Town of Fryeburg Website</a>'
+        },
+        {
+          id: 1,
+          title: "Fryeburg Recreation Department",
+          detail: '<a href="https://www.fryeburgrec.com/" target="_blank">Fryeburg Recreation Department</a>'
         }
       ],
        state: [

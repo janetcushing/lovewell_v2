@@ -34,6 +34,9 @@
               <table>
                 <th class="table-heading">{{event.sub_heading}}</th>
                 <tr class="table-row">{{event.detail}}</tr>
+                <tr v-if="event.link"><a :href="event.link" target="_blank">{{ event.link }}</a></tr>
+                 <!-- <tr v-if="events.link"><b-button variant="success" style="color: white;" :href="association.link" target = "_blank">{{ association.linkLabel }}</b-button> </tr>  -->
+                <tr class="table-row"></tr>
                  <tr class="table-row"></tr>
               </table>
             </div>
@@ -43,7 +46,9 @@
         <br /> 
         <b-row>
           <!-- <b-col md="12"> -->
+            <div v-if="item in News">
             <h2 class="news">News &amp; Announcements</h2>
+          </div>
             <div v-for="item in News" :key="item.id">
               <table>
                 <th class="table-heading">{{item.sub_heading}}</th>
@@ -106,39 +111,55 @@ export default {
         }
       ],
       Events: [
-        //  {
-        //   id: 5,
-        //   title: "Upcoming Events",
-        //   sub_heading: "Wood Fired Pizza at the Saco River Brewery, Wednesday, July 27th, 4:30 PM",
-        //   detail: "It’s Pizza night at the Saco River Brewery! Wood fired pizza and wings will be available from Blaze Brewing in Biddeford.  Come meet your neighbors and enjoy some drinks and pizza! Look for the sign that says 'Lovewell Pond Association' and come join us! Saco River Brewery is located just off Route 302 at 10 Jockey Cap Ln, Fryeburg."
-        // },
-       /* {
+         {
+          id: 1,
+          title: "Upcoming Events",
+          sub_heading: "2023 Annual Meeting, Saturday, June 24th, 9 AM",
+          detail:
+            'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its Annual meeting on Saturday, June 24, at the Rapputak Community Lodge at 9:00 AM.  From 9 to 10, we will have coffee and donuts and a chance to socialize with your neighbors here on Lovewell.  The business portion of the meeting will begin at 10 AM and go until noon.  Please bring your good ideas to share - we look forward to seeing everyone!'
+        },
+        {
+          id: 2,
+          title: "Upcoming Events",
+          sub_heading: "Fryeburg Pickleball Pick up Games, Tues/Thurs/Sat/Sun, 9 - 11 AM",
+          detail:
+            "Pick Up Pickleball Games are played at the Fryeburg Recreation Center, the cost is $3.00 per day.  You must have a change of sneakers to enter the gym. The rec center is located at 59 Recreation Drive, Fryeburg.  Sign up at the rec center website:",
+          link: "https://fryeburgrec.com/adult-programs/"
+          },
+         {
           id: 3,
           title: "Upcoming Events",
-          sub_heading: "Annual Loon Count, Saturday, July 17",
+          sub_heading: "Saco River Kayak Trip, Saturday, July 1, 11:30 AM",
           detail:
-            "Meet at the Public Boat Ramp at 7 AM, to count the loons on the lake.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks.  We'd love to get kids involved!"
-        }, */
-        // {
-        //   id: 4,
-        //   title: "Upcoming Events",
-        //   sub_heading: "Second Annual Boat Parade, Saturday, August 20th, 4:00 PM to Sundown",
-        //   detail:
-        //     "The property owners of the Lovewell Pond Association are sponsoring our second Sunset Boat Regatta!  We will meet Saturday, August 20th at Indian Point Beach at 4:00 pm.  ( Rain Date Sunday August 21st, 4 PM)  Bring chairs, blankets, wine, beer, drinks and snacks. We will leave Indian Point, circle the lake, arrive back at the beach and together watch the sun go down.  Part of the fun will be decorating our boats, so go wild and be creative! Anything goes - from holiday themes to pirate boats.  Above all have fun!"
-        // },
+            "Drop in at Walker's Bridge on the Saco between 11:30 and Noon, and paddle down stream to Lovewell Pond to Karen & Mark's house at 3 Wall Street, which is straight across from Indian Point Beach. It is a green cabin with an American flag flying, and American Flag buntings.  Feel free to drop any potluck dishes off at the house beforehand, between 9 and 11 AM.  BYOB and BYO-chair. The house is off of Ruth's Way, on the Rte 5/113 side of the lake."
+        },
+         {
+          id: 4,
+          title: "Upcoming Events",
+          sub_heading: "Annual Loon Count, Saturday, July 15, 7 AM",
+          detail:
+            "Meet at Loon Island at 7 AM, to count the loons on the lake.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks.  We'd love to get kids involved!"
+        },
+         {
+          id: 5,
+          title: "Upcoming Events",
+          sub_heading: "Saco River Brewery Meet Up, Saturday, July 29th, 4 PM to Whenever",
+          detail: "Meet up at the Saco River Brewery!  Come meet your neighbors and enjoy some great drinks! Look for the sign that says 'Lovewell Pond Association' and come join us!  Saco River Brewery is located just off Route 302 at 10 Jockey Cap Ln, Fryeburg."
+        },
+        {
+          id: 6,
+          title: "Upcoming Events",
+          sub_heading: "Annual Boat Parade, Saturday, August 19th, 4 PM to Sundown",
+          detail:
+            "The property owners of the Lovewell Pond Association are sponsoring our third annual Sunset Boat Regatta!  We will meet Saturday, August 19th at Indian Point Beach at 4:00 pm.   Bring chairs, blankets, wine, beer, drinks and snacks. We will leave Indian Point, circle the lake a couple of times, arrive back at the beach and together watch the sun go down.  Part of the fun will be decorating our boats, so go wild and be creative!Anything goes - from holiday themes to pirate boats.  Above all have fun!"
+        },
         // {
         //   id: 3,
         //   title: "Upcoming Events",
         //   sub_heading: "Community Pot Luck Dinner, Saturday, August 27th, 5:00 PM",
         //   detail: "Come join your Lovewell Pond friends and neighbors for a community pot luck dinner, which will be held on Saturday, August 27th at 5 PM.  The theme is 'Italy on the Pond'.  If your name begins with A through G, please bring a side dish to share; if your name begins with H through R, please bring a main dish to share; and if your name begins with S through Z, please bring a dessert to share.  Everyone should bring their own drinks, and lawn chairs.  Please park on the road at Rappatuck, and walk down to the Rec Hall.  The parking lot next to the Rec Hall is reserved for those with difficulty walking from the road.  And don't forget to bring your appetite!"
         // },
-        {
-          id: 2,
-          title: "Upcoming Events",
-          sub_heading: "2023 Annual Meeting, Saturday, June 24th",
-          detail:
-            'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its Annual meeting on Saturday, June 24, at the Rapputak Community Lodge at 9:30 AM.  From 9:30 to 10:00, we will have coffee and donuts and a chance to socialize with your neighbors here on Lovewell.  The business portion of the meeting will begin at 10:00 AM and go until noon.  Please bring your good ideas to share - we look forward to seeing everyone!'
-        }
+       
       ],
       News: [
        /* {
@@ -167,6 +188,12 @@ export default {
           sub_heading: "Water Quality Testing",
           detail:"Paul Fortin continues to perform seiki disk testing 4 times a year, testing for water clarity.  The results have been good and water has been relatively clear.  Josh Everett has coordinated the more extensive water testing.  This data is collected and then sent off for analysis.  It is also forwarded to the Saco River Corridor Commission for inclusion in their analysis from the Saco River. It’s available at www.srcc.maine.org.  Some folks have noticed that the water seems warmer this year and in some places almost hot.  They are also seeing more algae bloom and weed growth in the lower end of the pond.  A Level 3 plant inspection is slated for this year.  A Plant 3 Survey is the most comprehensive survey performed in the water by divers.  The pond and plant life are examined below the surface.  The last Level 3 Plant survey was completed in 2010.  We now have a good established baseline to compare the findings."
              } */
+          //   {
+          // id: 10,
+          // title: "News and Announcements",
+          // sub_heading: "Provide your feedback on the proposed changes to the gun range by Friday, August 15th",
+          // detail: "An environmental study on the proposed changes to the shooting range has been done by the Maine Department of Inland Fisheries and Wildlife and U.S. Fish and Wildlife Service.  A link to the study is below, along with a place to submit your comments.  They are asking for comments to be sent by August 15. "
+          //  }
       ]
     };
   }
