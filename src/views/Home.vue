@@ -108,6 +108,14 @@ export default {
             "Please take our 5 question survey on Lovewell Pond",
           link: "https://www.surveymonkey.com/r/WK6KSPW",
           linkLabel: "Lake Survey"
+        },
+        {
+          id: 4,
+          title: "The Lovewell Pond Association",
+          sub_heading: "2023 Dues Form",
+          detail: 'Your membership dues and your donations are invaluable in supporting the many programs that keep the lake healthy and clean. The Invasive Plant Program is paramount in helping to fund the Courtesy Boat Inspections at the Boat Ramp. One of our inspectors found a harmful invasive plant on a boat trailer last year...also an invasive snail...Had the invasive plant launched into the lake, it could have been devastating for our lake environment. Your dues and donations are critical in continuing to fund the Courtesy Boat Inspections and other key lake initiatives..ie. plant surveys, loon and wildlife programs. The Lovewell Pond Association is a registered 501©(3) tax exempt non-profit organization. ',
+          link: "../../2023_LOVEWELL_POND_DUES_FORM.pdf",
+          linkLabel: "2023 Lovewell Pond Dues Form"
         }
       ],
       Events: [
@@ -136,9 +144,9 @@ export default {
          {
           id: 4,
           title: "Upcoming Events",
-          sub_heading: "Annual Loon Count, Saturday, July 15, 7 AM",
+          sub_heading: "Annual Loon Count, Saturday, July 15, 6:45 AM",
           detail:
-            "Meet at Loon Island at 7 AM, to count the loons on the lake.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks.  We'd love to get kids involved!"
+            "Meet at Loon Island at 6:45 to 7 AM, to count the loons on the lake. It takes about a half an hour.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks.  We'd love to get kids involved!"
         },
          {
           id: 5,
