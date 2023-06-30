@@ -27,7 +27,7 @@
           <br/>
           <b-row>
             <h6><strong>A Special <span class="splash">THANK YOU</span> to all of our board, past and present ! </strong></h6>
-            <p>Colleen and Peter, our Members at Large, are the folks who know everything about Lovewell Pond, and have been protecting it for many, many years.  We appreciate them for their years of service!</p>
+            <!-- <p>Colleen and Peter, our Members at Large, are the folks who know everything about Lovewell Pond, and have been protecting it for many, many years.  We appreciate them for their years of service!</p> -->
             <p></p>
          </b-row>
          <!-- <b-row>
@@ -72,6 +72,16 @@ export default {
           title: "President:",
           name: "Dori Stern"
          },
+         {
+          id: 6,
+          title: "Vice Presidents:",
+          name: "Peter Wilkens"
+         },
+         {
+          id: 6,
+          title: "",
+          name: "Colleen Wilkens"
+         },
           {
           id: 3,
           title: "Treasurer:",
@@ -85,12 +95,7 @@ export default {
           {
           id: 5,
           title: "Members at Large:",
-          name: "Peter Wilkins"
-         },
-         {
-          id: 6,
-          title: "",
-          name: "Colleen Wilkins"
+          name: "Kathy Litch"
          },
          {
           id: 7,
