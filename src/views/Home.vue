@@ -34,6 +34,7 @@
             <div v-for="event in Events" :key="event.id">
               <table>
                 <th class="table-heading">{{event.sub_heading}}</th>
+                <tr v-if="event.cancel" class="table-heading red-highlight">{{event.cancel}}</tr>
                 <tr class="table-row">{{event.detail}}</tr>
                 <tr v-if="event.link"><a :href="event.link" target="_blank">{{ event.link }}</a></tr>
                  <!-- <tr v-if="events.link"><b-button variant="success" style="color: white;" :href="association.link" target = "_blank">{{ association.linkLabel }}</b-button> </tr>  -->
@@ -139,6 +140,7 @@ export default {
           id: 3,
           title: "Upcoming Events",
           sub_heading: "Saco River Kayak Trip, Saturday, July 1, 11:30 AM",
+           cancel: "Trip is Cancelled due to high water and safety concerns",
           detail:
             "Drop in at Walker's Bridge on the Saco between 11:30 and Noon, and paddle down stream to Lovewell Pond to Karen & Mark's house at 3 Wall Street, which is straight across from Indian Point Beach. It is a green cabin with an American flag flying, and American Flag buntings.  Feel free to drop any potluck dishes off at the house beforehand, between 9 and 11 AM.  BYOB and BYO-chair. The house is off of Ruth's Way, on the Rte 5/113 side of the lake."
         },
@@ -267,11 +269,16 @@ export default {
   letter-spacing: 0;
   color: #343638;
 }
+.red-highlight {
+  font-weight: bold;
+  color:#FF0000;
+}
+
 .survey {
   font: Bold 18px/30px "Open Sans";
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0;
-  color: #343638;
+  color: #a8323e;
 }
 </style>
 
