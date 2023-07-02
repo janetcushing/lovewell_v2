@@ -55,6 +55,7 @@
               <table>
                 <th class="table-heading">{{item.sub_heading}}</th>
                 <tr class="table-row">{{item.detail}}</tr>
+                <tr v-if="item.link"><a :href="item.link" target="_blank">{{ item.linkLabel }}</a></tr>
                  <tr class="table-row"></tr>
               </table>
             </div>
@@ -140,7 +141,7 @@ export default {
           id: 3,
           title: "Upcoming Events",
           sub_heading: "Saco River Kayak Trip, Saturday, July 1, 11:30 AM",
-           cancel: "Trip is Cancelled due to high water and safety concerns",
+          cancel: "Trip is Cancelled due to high water and safety concerns",
           detail:
             "Drop in at Walker's Bridge on the Saco between 11:30 and Noon, and paddle down stream to Lovewell Pond to Karen & Mark's house at 3 Wall Street, which is straight across from Indian Point Beach. It is a green cabin with an American flag flying, and American Flag buntings.  Feel free to drop any potluck dishes off at the house beforehand, between 9 and 11 AM.  BYOB and BYO-chair. The house is off of Ruth's Way, on the Rte 5/113 side of the lake."
         },
@@ -173,6 +174,14 @@ export default {
        
       ],
       News: [
+      {
+          id: 31,
+          title: "News and Announcements",
+          sub_heading: "Fryeburg Water Quality Report",
+          detail: "A report on the water quality of Lovewell Lake and other bodies of water in Fryeburg: ",
+          link: "./Fryeburg_2022_Water_Quality_Report.pdf",
+          linkLabel: "2022 Fryeburg Water Quality Report"
+      }
        /* {
           id: 7,
           title: "News and Announcements",
