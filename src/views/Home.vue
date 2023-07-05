@@ -48,7 +48,7 @@
         <br /> 
         <b-row>
           <!-- <b-col md="12"> -->
-            <div v-if="item in News">
+            <div v-if="News[0]">
             <h2 class="news">News &amp; Announcements</h2>
           </div>
             <div v-for="item in News" :key="item.id">
