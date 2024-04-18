@@ -115,19 +115,19 @@ export default {
         {
           id: 4,
           title: "The Lovewell Pond Association",
-          sub_heading: "2023 Dues Form",
+          sub_heading: "Annual Dues Form",
           detail: 'Your membership dues and your donations are invaluable in supporting the many programs that keep the lake healthy and clean. The Invasive Plant Program is paramount in helping to fund the Courtesy Boat Inspections at the Boat Ramp. One of our inspectors found a harmful invasive plant on a boat trailer last year...also an invasive snail...Had the invasive plant launched into the lake, it could have been devastating for our lake environment. Your dues and donations are critical in continuing to fund the Courtesy Boat Inspections and other key lake initiatives..ie. plant surveys, loon and wildlife programs. The Lovewell Pond Association is a registered 501©(3) tax exempt non-profit organization. ',
-          link: "./2023_LOVEWELL_POND_DUES_FORM.pdf",
-          linkLabel: "2023 Lovewell Pond Dues Form"
+          link: "./ANNUAL LOVEWELL POND DUES FORM.pdf",
+          linkLabel: "Annual Lovewell Pond Dues Form"
         }
       ],
       Events: [
          {
           id: 1,
           title: "Upcoming Events",
-          sub_heading: "2023 Annual Meeting, Saturday, June 24th, 9 AM",
+          sub_heading: "Annual Meeting, Saturday, June 29th, 9 AM",
           detail:
-            'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its Annual meeting on Saturday, June 24, at the Rapputak Community Lodge at 9:00 AM.  From 9 to 10, we will have coffee and donuts and a chance to socialize with your neighbors here on Lovewell.  The business portion of the meeting will begin at 10 AM and go until noon.  Please bring your good ideas to share - we look forward to seeing everyone!'
+            'The Lovewell Pond Association (a.k.a. Property Owners of Lovewell Pond) will hold its Annual meeting on Saturday, June 29, at the Rapputak Community Lodge at 9:00 AM.  From 9 to 10, we will have coffee and donuts and a chance to socialize with your neighbors here on Lovewell.  The business portion of the meeting will begin at 10 AM and go until noon.  Please bring your good ideas to share - we look forward to seeing everyone!'
         },
         {
           id: 2,
@@ -137,36 +137,45 @@ export default {
             "Pick Up Pickleball Games are played at the Fryeburg Recreation Center, the cost is $3.00 per day.  You must have a change of sneakers to enter the gym. The rec center is located at 59 Recreation Drive, Fryeburg.  Sign up at the rec center website:",
           link: "https://fryeburgrec.com/adult-programs/"
           },
-         {
+           {
           id: 3,
           title: "Upcoming Events",
-          sub_heading: "Saco River Kayak Trip, Saturday, July 1, 11:30 AM",
-          cancel: "Trip is Cancelled due to high water and safety concerns",
+          sub_heading: "Check Our Facebook Group for Upcoming Summer Events!",
+          cancel: "",
           detail:
-            "Drop in at Walker's Bridge on the Saco between 11:30 and Noon, and paddle down stream to Lovewell Pond to Karen & Mark's house at 3 Wall Street, which is straight across from Indian Point Beach. It is a green cabin with an American flag flying, and American Flag buntings.  Feel free to drop any potluck dishes off at the house beforehand, between 9 and 11 AM.  BYOB and BYO-chair. The house is off of Ruth's Way, on the Rte 5/113 side of the lake."
-        },
-         {
-          id: 4,
-          title: "Upcoming Events",
-          sub_heading: "Annual Loon Count, Saturday, July 15, 6:45 AM",
-          detail:
-            "Meet at Loon Island at 6:45 to 7 AM, to count the loons on the lake. It takes about a half an hour.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks.  We'd love to get kids involved!"
-        },
-         {
-          id: 5,
-          title: "Upcoming Events",
-          sub_heading: "Saco River Brewery Meet Up, Saturday, July 29th, 4 PM to Whenever",
-          detail: "Meet up at the Saco River Brewery!  Come meet your neighbors and enjoy some great drinks! Look for the sign that says 'Lovewell Pond Association' and come join us!  Saco River Brewery is located just off Route 302 at 10 Jockey Cap Ln, Fryeburg."
-        },
-        {
-          id: 6,
-          title: "Upcoming Events",
-          sub_heading: "Annual Boat Parade, Saturday, August 19th, 4 PM to Sundown",
-          detail:
-            "The property owners of the Lovewell Pond Association are sponsoring our third annual Sunset Boat Regatta!  We will meet Saturday, August 19th at Indian Point Beach at 4:00 pm.   Bring chairs, blankets, wine, beer, drinks and snacks. We will leave Indian Point, circle the lake a couple of times, arrive back at the beach and together watch the sun go down.  Part of the fun will be decorating our boats, so go wild and be creative!Anything goes - from holiday themes to pirate boats.  Above all have fun!"
-        },
+            "Details on Annual Loon Count, Saco River Brewery Meetup, Annual Boat Parade, Saco River Kayak Trip, Annual Pot Luck Dinner, and other planned events.  Feel free to make suggestions on events you would like to see happening!",
+          link: "https://www.facebook.com/groups/553797096434971/events"
+          },
+        //  {
+        //   id: 4,
+        //   title: "Upcoming Events",
+        //   sub_heading: "Saco River Kayak Trip, Saturday, July 1, 11:30 AM",
+        //   cancel: "Trip is Cancelled due to high water and safety concerns",
+        //   detail:
+        //     "Drop in at Walker's Bridge on the Saco between 11:30 and Noon, and paddle down stream to Lovewell Pond to Karen & Mark's house at 3 Wall Street, which is straight across from Indian Point Beach. It is a green cabin with an American flag flying, and American Flag buntings.  Feel free to drop any potluck dishes off at the house beforehand, between 9 and 11 AM.  BYOB and BYO-chair. The house is off of Ruth's Way, on the Rte 5/113 side of the lake."
+        // },
+        //  {
+        //   id: 5,
+        //   title: "Upcoming Events",
+        //   sub_heading: "Annual Loon Count, Saturday, July 15, 6:45 AM",
+        //   detail:
+        //     "Meet at Loon Island at 6:45 to 7 AM, to count the loons on the lake. It takes about a half an hour.  Please bring binnoculars.  Last year we counted 7 loons, and unfortunately, no baby chicks.  We'd love to get kids involved!"
+        // },
+        //  {
+        //   id: 6,
+        //   title: "Upcoming Events",
+        //   sub_heading: "Saco River Brewery Meet Up, Saturday, July 29th, 4 PM to Whenever",
+        //   detail: "Meet up at the Saco River Brewery!  Come meet your neighbors and enjoy some great drinks! Look for the sign that says 'Lovewell Pond Association' and come join us!  Saco River Brewery is located just off Route 302 at 10 Jockey Cap Ln, Fryeburg."
+        // },
         // {
-        //   id: 3,
+        //   id: 7,
+        //   title: "Upcoming Events",
+        //   sub_heading: "Annual Boat Parade, Saturday, August 19th, 4 PM to Sundown",
+        //   detail:
+        //     "The property owners of the Lovewell Pond Association are sponsoring our third annual Sunset Boat Regatta!  We will meet Saturday, August 19th at Indian Point Beach at 4:00 pm.   Bring chairs, blankets, wine, beer, drinks and snacks. We will leave Indian Point, circle the lake a couple of times, arrive back at the beach and together watch the sun go down.  Part of the fun will be decorating our boats, so go wild and be creative!Anything goes - from holiday themes to pirate boats.  Above all have fun!"
+        // },
+        // {
+        //   id: 8,
         //   title: "Upcoming Events",
         //   sub_heading: "Community Pot Luck Dinner, Saturday, August 27th, 5:00 PM",
         //   detail: "Come join your Lovewell Pond friends and neighbors for a community pot luck dinner, which will be held on Saturday, August 27th at 5 PM.  The theme is 'Italy on the Pond'.  If your name begins with A through G, please bring a side dish to share; if your name begins with H through R, please bring a main dish to share; and if your name begins with S through Z, please bring a dessert to share.  Everyone should bring their own drinks, and lawn chairs.  Please park on the road at Rappatuck, and walk down to the Rec Hall.  The parking lot next to the Rec Hall is reserved for those with difficulty walking from the road.  And don't forget to bring your appetite!"
@@ -264,7 +273,7 @@ export default {
   font: Bold 20px/20px "Open Sans";
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0;
-  color: #287492;
+  color: #f287492;
   opacity: 1;
 }
 
